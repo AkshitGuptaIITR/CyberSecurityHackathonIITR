@@ -1,0 +1,14 @@
+.about{
+    padding:0 35px 0 35px;
+}
+.about h2{
+    color: rgb(228, 15, 15);
+    text-align: center;
+    font-size:2.3rem;
+    font-weight:bold;
+}
+.about p{
+    color:rgb(3, 3, 119);
+    font-size:1.2rem;
+    letter-spacing:0.6px;
+}
