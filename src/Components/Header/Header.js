@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import style from "./Header.module.css";
 import logo from "../../Assets/iitrlogo.png";
@@ -5,7 +7,7 @@ import { useWindowWidth } from "@react-hook/window-size";
 
 const Header = () => {
   const width = useWindowWidth();
-  const [open ,setOpen] = useState(false);
+  // const [open ,setOpen] = useState(false);
 
   return (
     <header className={style.header}>

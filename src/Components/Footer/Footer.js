@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import style from "./Footer.module.css";
 import logo from "../../Assets/iitrlogo.png";
