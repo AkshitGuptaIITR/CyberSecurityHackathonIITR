@@ -7,30 +7,59 @@ import { useWindowWidth } from "@react-hook/window-size";
 
 const Header = () => {
   const width = useWindowWidth();
-  const [open ,setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
+  const [nameClass, setNameClass] = useState("");
+
+  const handleClick = () => {
+    setOpen(!open);
+    if (nameClass === "") {
+      setNameClass(style.navBarOpen);
+    } else {
+      setNameClass("");
+    }
+  };
 
   return (
     <header className={style.header}>
       <img src={logo} alt="" />
       {width <= 728 ? (
         <>
-          <div className={style.hamburger} onClick={() => setOpen(!open)}>
+          <div
+            className={style.mobileLinks}
+            style={{ display: `${open ? "flex" : "none"}` }}
+            onClick={handleClick}
+          >
+            <a href="#about">About</a>
+            <a href="#speaker">Speakers</a>
+            <a href="#jury">Jury</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#problem">Problem Statement</a>
+            <a href="">Partners</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div
+            className={style.hamburger}
+            style={{ backgroundColor: `${open ? "black" : ""}` }}
+            onClick={handleClick}
+          >
             <div className={style.line}></div>
             <div className={style.line}></div>
             <div className={style.line}></div>
           </div>
+          <div className={`${style.circle} ${nameClass}`}></div>
         </>
       ) : (
         <>
           <div className={style.links}>
-            <a href="">About</a>
-            <a href="">Speakers</a>
-            <a href="">Jury</a>
-            <a href="">Timeline</a>
-            <a href="">Schedule</a>
-            <a href="">Problem Statement</a>
+            <a href="#about">About</a>
+            <a href="#speaker">Speakers</a>
+            <a href="#jury">Jury</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#problem">Problem Statement</a>
             <a href="">Partners</a>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </div>
         </>
       )}

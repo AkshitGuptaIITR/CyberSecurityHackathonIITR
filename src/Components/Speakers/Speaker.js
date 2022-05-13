@@ -14,7 +14,7 @@ const Speaker = () => {
     };
     return (
         <>
-            <div className={style.speaker}>
+            <div className={style.speaker} id="speaker">
                 <h2>KEYNOTE SPEAKERS</h2>
                 <div className={style.speaker_image}>
                     <img alt={"Police"} src={pic1} style={image_style} className={style.pic1} />

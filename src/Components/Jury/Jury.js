@@ -14,7 +14,7 @@ const Jury = () => {
     };
     return (
         <>
-            <div className={style.Jury}>
+            <div className={style.Jury} id="jury">
                 <h2>DISTINGUISHED JURY</h2>
                 <div className={style.jury_image}>
                     <img alt={"Police"} src={pic1} style={image_style} />

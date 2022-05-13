@@ -3,7 +3,7 @@ import style from "./ProblemStatements.module.css";
 
 const ProblemStatements = () => {
   return (
-    <div className={style.structure}>
+    <div className={style.structure} id="problem">
       <h1>Problem Statements</h1>
       <table>
         <tbody>
