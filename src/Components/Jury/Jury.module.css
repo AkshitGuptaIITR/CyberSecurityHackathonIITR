@@ -2,6 +2,7 @@
     padding:0 35px 0 35px;
     margin-bottom: 90px;
 }
+
 .Jury h2{
     color: rgb(228, 15, 15);
     text-align: center;
@@ -9,6 +10,13 @@
     font-weight:bold;
     margin-bottom:50px;
 }
+
 .jury_image{
     display: flex;
+    flex-wrap: wrap;
+    margin: 0 12px;
+}
+
+@media only screen and (max-width: 758px) {
+
 }

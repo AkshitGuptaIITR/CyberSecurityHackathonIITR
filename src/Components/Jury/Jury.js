@@ -26,7 +26,8 @@ const Jury = () => {
                     width: "90%",
                     display: "block",
                     marginLeft: "auto",
-                    marginRight: "auto"
+                    marginRight: "auto",
+                    aspectRatio: '2/1'
                 }} />
             </div>
         </>
