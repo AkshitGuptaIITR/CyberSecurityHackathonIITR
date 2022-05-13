@@ -1,0 +1,33 @@
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  flex-direction: row;
+  background-color: #29166f;
+  align-items: center;
+  padding: 0 5%;
+  justify-content: space-between;
+}
+
+.header>img{
+  height: 50px;
+  width: 350px;
+}
+
+.links{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  text-transform: uppercase;
+  justify-content: space-between;
+}
+
+.links>a{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
