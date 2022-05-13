@@ -107,3 +107,41 @@
 .lowerBody>span{
   color: #efa506;
 }
+
+@media only screen and (max-width: 758px) {
+  .upperBlock{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact{
+    width: 100%;
+  }
+
+  .upperBlock>img{
+    width: 100% !important;
+    height: 45px !important;
+    margin: 20px 0px;
+  }
+
+  .contact>h1{
+    font-size: 18px !important;
+  }
+
+  .contact>a{
+    font-size: 14px !important;
+  }
+
+  .contact>p{
+    font-size: 16px !important;
+  }
+
+  .contactName{
+    font-size: 16px !important;
+  }
+
+  .socailMedia>a{
+    width: 18px !important;
+    height: 18px !important;
+  }
+}

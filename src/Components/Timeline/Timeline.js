@@ -14,7 +14,7 @@ const Timeline = () => {
                     display: "block",
                     marginLeft: "auto",
                     marginRight: "auto",
-                    aspectRatio: "2/1"
+                    aspectRatio: "1.5/1"
                 }} />
             </div>
         </>
