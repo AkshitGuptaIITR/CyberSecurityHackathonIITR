@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 .showcase{
     height: 120vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.1)), url('../images/1st.jpg');
+    background:linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.1)), url('../images/bg1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
