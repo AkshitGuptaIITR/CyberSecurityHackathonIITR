@@ -53,7 +53,7 @@ const About = () => {
           as providing a safe and secure environment for investments and tourism
           in the state of Uttarakhand. Uttarakhand secured the top spot in terms
           of better law and order situation in the Sustainable Development Goals
-          India index 2021 released by Niti Ayog. This was made possible only
+          India index 2022 released by Niti Ayog. This was made possible only
           due to the vision of being a friendly and disciplined police force.
           Keeping up with the times rapidly moving towards digitalization,
           Uttarakhand Police has set up a dedicated citizen portal to take care

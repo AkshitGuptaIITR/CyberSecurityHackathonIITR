@@ -442,34 +442,19 @@ const ProblemStatements = () => {
               <details>
                 <summary>Click to read the Glossary</summary>
                 <p style={{ textAlign: "left" }}>
-                  1. IMEI- The International Mobile Equipment Identity number is
-                  a unique 15-digit code that precisely identifies the device
-                  with the SIM card input. (Handset number)
-                  <br /> 2. IMSI- Unique number of up to 15 digits assigned to
-                  each GSM connection, containing country code, network operator
-                  code and mobile device number. (SIM number) 3. TSPs /ISPs-
-                  Vodafone/Idea/ Airtel/BSNL/Reliance Jio.
-                  <br />
-                  4. CDR- Call Data record (mobile record of a person).
-                  <br />
-                  5. IPDR- Internet Protocol Detail Record of mobile
-                  data/internet usage.
-                  <br />
-                  6. FIR- First Information Report (criminal case registration).
-                  7. Hotspots- a place of significant activity, danger or
-                  violence.
-                  <br />
-                  8. VoIP- Voice over Internet Protocol (VoIP), is a technology
-                  that allows you to make voice calls using a broadband Internet
-                  connection instead of a regular (or analog) phone line.
-                  <br />
-                  9. Crypto Exchangers- there are many crypto currency platforms
-                  like WazirX, CoinDCX.
-                  <br />
-                  10. OSINT- OSINT is intelligence “drawn from publicly
-                  available material”. OSINT includes information gathered from
-                  the internet, mass media, specialist journals and research,
-                  photos and geospatial information.
+                  • Source code to have been developed during the course of the
+                  event.
+                  <br /> • Source code not to contain any element with patent or
+                  copyright beforehand. <br /> • Source code/program to be
+                  submitted through the official hackathon mail ID where the
+                  participants can mail with solution link or forward in google
+                  drive. <br /> • If the participant fails to qualify for the
+                  final round, he/she can revoke the permission granted to
+                  access the solution. The organising teams will not be
+                  responsible for any misuse of leakage of the source code as it
+                  is the discretion of the participating teams to change the
+                  password of their solutions or revoke permission granted for
+                  the event. No stake can be claimed.
                 </p>
               </details>
             </th>
@@ -721,200 +706,82 @@ const ProblemStatements = () => {
             </th>
           </tr>
           <tr>
-            <th style={{ textAlign: 'center' }} colspan="2">
+            <th style={{ textAlign: "center" }} colspan="2">
               <details>
                 <summary>Click to read Contest Rules</summary>
-                <p style={{ textAlign: "left" }}>
-                  The Prelims round submission
+                <br/>
+                <p style={{ textAlign: "left", fontWeight: 300 }}>
+                  The participants will have to abide by the official rules
+                  provided by Uttarakhand Police for participation from
+                  time-to-time including the rules mentioned below. <br />
+                  There is no entrance fee for participation. Uttarakhand Police
+                  welcomes nominations for participation in the first Hackathon
+                  of the State, “Devbhoomi Cyber Hackathon”.
                   <br />
-                  The participants will have to abide by the official rules provided by Uttarakhand
-                  Police for participation from time-to-time including the rules mentioned below.
+                  <br />{" "}
+                  <b>
+                    Introduction
+                    <br />
+                  </b>
+                  The Devbhoomi Cyber Hackathon is a skill contest. It consists
+                  of two rounds, a preliminary round to be held in May, June,
+                  July 2022, followed by declaration of selected teams by the
+                  end of July for the final round, scheduled for 09.08.2022 to
+                  12.08.2022. <br />
                   <br />
-                  There is no entrance fee for participation. Uttarakhand Police welcomes nominations for participation
-                  in the first Hackathon of the State, “Devbhoomi Cyber Hackathon”.
+                  Eligibility Criteria Entrants must: <br /> (i) 18 years or
+                  above <br /> (ii) citizen of India <br /> (iii) verified
+                  government ID or <br /> (iv) verified college ID or
+                  institute/organisation. <br /> Any team member must not be a
+                  member of any other team. The contest/event is subjected to
+                  all Central/State/Concurrent laws of India & is void where
+                  prohibited.
                   <br />
-                  Introduction
                   <br />
-                  The Devbhoomi Cyber Hackathon is a skill contest. It consists of two rounds, a preliminary
-                  round to be held in May, June, July 2022, followed by
-                  declaration of selected teams by the end of July for the final round, scheduled
-                  for 09.08.2022 to 12.08.2022.
+                  <b>
+                    Team participation requirement:
+                    <br />
+                  </b>
+                  The participation in the event will be in the form of a
+                  single- member (individual) team or a group consisting up to a
+                  maximum of 5 members. They will be termed as “Team”. The terms
+                  and conditions will be agreed as a team and not liable to
+                  discretion of acceptance of every individual in the team. If
+                  any member violates the term & condition or goes against the
+                  interest of hackathon for any illegal or malafide activity,
+                  the team will be disqualified.
+                  <br /> <br />
+                  <b> Disqualification </b>
                   <br />
-                  Eligibility Criteria
-                  <br />
-                  Entrants must (i) 18 years or above (ii) citizen of India (iii) verified government ID or (iv) verified
-                  college ID or institute/organisation.Any team member must not be a member of any other
-                  team.The contest/event is
-                  subjected to all Central/State/Concurrent laws of India & is void where prohibited.
-                  <br />
-                  Team participation requirement
-                  <br />
-                  The participation in the event will be in the form of a single- member (individual) team or a group consisting
-                  up to a maximum of 5 members. They will be termed as “Team”. The terms and conditions will be agreed as a team
-                  and not liable to discretion of acceptance of every individual in the team. If any member violates the term & condition
-                  or goes against the interest of hackathon for any illegal or malafide activity, the team will be disqualified.
-                  <br />
-                  Disqualification
-                  <br />
-                  Any individual who violates the eligibility criteria stated will automatically be disqualified
-                  along with all team members he/she is in association with. Also, he/she must meet the eligibility
-                  criteria for participating in the event.
-                  <br />
-                  Process Flow for the Preliminary Round
-                  <br />
-                  For the preliminary round, the advertisement for “Devbhoomi Cyber Hackathon” will placed for the time '
-                  period between 20-05-2022 and 22.07.2021 on the Uttarakhand Police Website, Uttarakhand Police Facebook
-                  and Twitter accounts, district police Facebook and Twitter accounts and Cyber Crime Police Station, Uttarakhand
-                  Facebook and Twitter accounts along
-                  with newspapers and radio broadcasting for massive campaigning and for inviting nominations.
-                  <br />
-                  For the preliminary round, the advertisement for “Devbhoomi Cyber Hackathon” will placed for
-                  the time period between 20-05-2022 and 22.07.2021 on the Uttarakhand Police Website, Uttarakhand
-                  Police Facebook and Twitter accounts, district police Facebook and Twitter accounts and Cyber Crime
-                  Police Station, Uttarakhand Facebook and Twitter accounts along with newspapers
-                  and radio broadcasting for massive campaigning and for inviting nominations.
-                  <br />
-                  At the preliminary level, the eligible entrants must participate in the time period in May, June, July 2022.
-                  The participants will be required to submit their solutions on the official email ID dcs2022@iitr.ac.in or
-                  through our website by 29.08.2022 by
-                  23:59 hours after which no submissions will be accepted. (Kindly check detailed time schedule)
-                  <br />
-                  Rules for Preliminary rounds
-                  <br />
-                  • Source code to have been developed during the course of the
-                  event.
-                  <br />
-                  • Source code not to contain any element with patent or
-                  copyright beforehand.
-                  <br />
-                  • Source code/program to be submitted through the official
-                  Hackathon mail ID where the participants can mail with
-                  solution link or forward in Google drive.
-                  <br />
-                  • If the participant fails to qualify for the final round,
-                  he/she can revoke the permission granted to access the
-                  solution. The organising teams will not be responsible for any
-                  misuse of leakage of the source code as it is the discretion
-                  of the participating teams to change the password of their
-                  solutions or revoke permission granted for the event. No stake
-                  can be claimed.
-                  <br />
-                  Result Analysis of Preliminary Round and Declaration of Result
-                  <br />
-                  Post solution submission process, the eligible entries will be evaluated by a
-                  jury panel comprising officials from
-                  Police department & other technical experts. Evaluation criteria will include:
-                  <br />
-                  1. Meeting the expectations of the problem statement.
-                  <br />
-                  2. Practicability, sustainability, clarity, complexity and
-                  feasibility of the solution
-                  <br />
-                  3. Potential for future work progression.
-                  <br />
-                  4. Any other possible technical assistance to ease the work of
-                  police.
-                  <br />
-                  The declaration of the winner based on the above criteria will
-                  be a matter of pure discretion of the panel and not open to
-                  questioning or scrutiny.
-                  <br />
-                  Notification about selected teams will be put up on our portal by 31.07.2022
-                  One may also keep a track of all the latest announcements and
-                  updates about the initiative through the event website.
-                  <br />
-                  Nomination for the Main Event
-                  <br />
-                  The selected teams will be invited for the final event scheduled between
-                  09.08.2022-12.08.2022. The constitution of the team selected for the main event
-
-                  will not change and will have the same membership as the preliminary round.
-                  (Please check detailed schedule).
-
-
-                  <br />
-                  Devbhoomi Cyber Hackathon (main event)
-                  <br />
-                  At the beginning of the event, the problem statements will be shared with all participants at the same time.
-                  The main event will take place in offline mode at University of Petroleum and Energy Studies, Dehradun. The
-                  final round will be a 48 hours long session beginning on 09.08.2022 and ending on 10.08.2022.<br />
-                  The Jury will judge the main event on 11.08.22 while the felicitation ceremony is slated for 12.08.22.
-
-                  <br />
-                  Result Analysis of the Final Event and Declaration of Winner
-                  <br />
-                  Each eligible entry will be evaluated by a jury panel
-                  comprising officials from Police department. Evaluation
-                  criteria include:
-                  <br />
-                  1. Relevancy.
-                  <br />
-                  2. Novelty of concept
-                  <br />
-                  3. Practicality, feasibility and sustainability
-                  <br />
-                  4. Meeting the expectation of the police.
-                  <br />
-                  The declaration of the winner based on the above criteria will be a
-                  matter of pure discretion of the panel and not open to questioning or scrutiny. The winner will
-                  be declared on 12.08.2022 as per the timeframe of the committee.
-                  <br />
-                  Reward
-                  <br />
-                  The top three teams will be awarded motivational prizes along with a certificate of excellence for
-                  all the participants of the main event.
-                  The reward will be given to the participants directly by the sponsors. (*The amount will be disclosed soon)
-                  <br />
-                  Taxes
-                  <br />
-                  The winning amount will be subjected to any existing Central/State/Concurrent laws of India for taxation.
-                  Payment of tax and other formalities is the sole responsibility of the participating team.
-                  <br />
-                  Accommodation
-                  <br />
-                  Preliminary rounds will be conducted in online mode, so accommodation is not required. For
-                  the main event, all participants will be required to travel to IIT-Roorkee. The selected teams will be
-                  provided with facilities for food and lodging. We will not provide for travel expenses.
-                  <br />
-                  Participant Representation and Warranties
-                  <br />
-                  By entering the contest, participants will represent and warrant that their eligible entries are their
-                  original work. Each participant agrees that any outside data, tools, materials, or information were used
-                  with permission, or in accordance with all applicable laws for the purpose of entering the contest.
-                  Each participant agrees not to submit any entry that infringes any third-party proprietary rights,
-                  intellectual property rights, industrial property rights, personal or moral rights or any other rights,
-                  including without limitations,
-                  copyright, trademark, patent, trade secret, privacy, publicity, confidentiality obligations.
-                  <br />
-                  Privacy
-                  <br />
-                  Participants agree that the personal data entered during the registration & otherwise in
-                  connection with the contest has been filled with their own consent.
-                  Uttarakhand Police is authorised to the given details for communication/
-                  correspondence and carrying the process of hackathon.
-                  <br />
-                  Governing Law
-                  <br />
-                  The official rules, terms and condition and all the procedures
-                  will be governed by the laws prevailing in India.
-                  <br />
-                  Confidentiality
-                  <br />
-                  You shall not disclose or release to the third party any information you receive and relating to the
-                  Hackathon which is not publicly available information, including all materials you receive and
-                  discussions(whether verbal or written) during the Hackathon and information relating to the
-                  Applications, details of the Applications developed and produced by you, your team or by other
-                  participants or other team during the Hackathon, any other confidential information you may
-                  have received from other participants during the Hackathon, and feedback provided by the Organizer
-                  and any Intellectual Property presented, developed and produced during the duration of
-                  the Hackathon. This ‘Confidentiality’ clause shall survive the cancellation, end/expiration or
-                  termination of the Hackathon.
+                  Any individual who violates the eligibility criteria stated
+                  will automatically be disqualified along with all team members
+                  he/she is in association with. Also, he/she must meet the
+                  eligibility criteria for participating in the event.
+                  <br /><br/> <b> Process Flow for the Preliminary Round </b> <br />
+                  For the preliminary round, the advertisement for “Devbhoomi
+                  Cyber Hackathon” will placed for the time period between
+                  20-05-2022 and 22.07.2021 on the Uttarakhand Police Website,
+                  Uttarakhand Police Facebook and Twitter accounts, district
+                  police Facebook and Twitter accounts and Cyber Crime Police
+                  Station, Uttarakhand Facebook and Twitter accounts along with
+                  newspapers and radio broadcasting for massive campaigning and
+                  for inviting nominations. The official nomination will begin
+                  from 20th May 2022 and entrants can participate through the
+                  website https://iitr.ac.in/dch/ . Simultaneously the problem
+                  statement for the preliminary round will be shared with the
+                  participants as they continue to register in the mentioned
+                  window. At the preliminary level, the eligible entrants must
+                  participate in the time period in May, June, July 2022. The
+                  participants will be required to submit their solutions on the
+                  official email ID dcs2022@iitr.ac.in or through our website by
+                  29.08.2022 by 23:59 hours after which no submissions will be
+                  accepted. (Kindly check detailed time schedule)
                 </p>
               </details>
             </th>
           </tr>
           <tr>
-            <td style={{ textAlign: 'justify' }} colspan="2">
+            <td style={{ textAlign: "justify" }} colspan="2">
               **<strong>Lodging ,Cloak room and food arrangements</strong> of
               the participating teams on 10th, and 11th November 21(Day and
               Night) will be taken care of by UPES Campus. Transportation from
