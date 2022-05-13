@@ -7,6 +7,7 @@ import Jury from "./Components/Jury/Jury";
 import Timeline from "./Components/Timeline/Timeline";
 import Event from "./Components/Event Schedule/Event";
 import ProblemStatements from "./Components/ProblemStatements/ProblemStatements";
+import Partner from "./Components/Partners/Partner";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Timeline />
       <Event />
       <ProblemStatements />
+      <Partner />
       <Footer />
     </>
   );
