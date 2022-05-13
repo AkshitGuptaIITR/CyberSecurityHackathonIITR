@@ -3,10 +3,6 @@ import style from "./Jury.module.css";
 import pic1 from "../../Assets/img5.jpeg";
 import pic2 from "../../Assets/img3.jpeg";
 import pic3 from "../../Assets/img6.jpeg";
-
-// import pic1 from "../images/Amitsir.png";
-// import pic2 from "../images/ridihimamam.png";
-// import pic3 from "../images/niveditamam.png";
 import pic4 from "../images/oc.png";
 
 const Jury = () => {
