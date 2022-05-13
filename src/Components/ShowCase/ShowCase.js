@@ -14,7 +14,6 @@ const ShowCase = () => {
                         <BsCalendar3 size={24} className={style.Icon} /> 10-12 Nov, 2021
                     </p>
                 </div>
-
             </div>
 
         </>
