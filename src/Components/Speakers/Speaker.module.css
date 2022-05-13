@@ -1,0 +1,18 @@
+.speaker{
+    padding:0 35px 0 35px;
+    margin-bottom: 120px;
+}
+.speaker h2{
+    color: rgb(228, 15, 15);
+    text-align: center;
+    font-size:2.3rem;
+    font-weight:bold;
+}
+.speaker_image{
+    display: grid;
+    row-gap: 35px;
+}
+.pic1{ 
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}

@@ -1,0 +1,11 @@
+.Timeline{
+    padding:0 35px 0 35px;
+    margin-bottom: 90px;
+}
+.Timeline h2{
+    color: rgb(228, 15, 15);
+    text-align: center;
+    font-size:2.3rem;
+    font-weight:bold;
+    margin-bottom:50px;
+}
