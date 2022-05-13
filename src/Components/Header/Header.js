@@ -7,18 +7,18 @@ import { useWindowWidth } from "@react-hook/window-size";
 
 const Header = () => {
   const width = useWindowWidth();
-  // const [open ,setOpen] = useState(false);
+  const [open ,setOpen] = useState(false);
 
   return (
     <header className={style.header}>
       <img src={logo} alt="" />
       {width <= 728 ? (
         <>
-          {/* <div className={style.hamburger} onClick={() => setOpen(!open)}>
+          <div className={style.hamburger} onClick={() => setOpen(!open)}>
             <div className={style.line}></div>
             <div className={style.line}></div>
             <div className={style.line}></div>
-          </div> */}
+          </div>
         </>
       ) : (
         <>

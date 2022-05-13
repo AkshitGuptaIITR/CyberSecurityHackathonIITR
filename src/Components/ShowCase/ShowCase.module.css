@@ -35,6 +35,7 @@
 @media (max-width: 758px) {
     .showcase_cont h1 {
         font-size: 48px;
+        width: 80%;
         margin-bottom: 16px;
     }   
 }

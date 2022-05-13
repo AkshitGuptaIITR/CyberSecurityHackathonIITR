@@ -54,7 +54,7 @@
 }
 
 .socailMedia {
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
 }
@@ -70,8 +70,8 @@
   color: black;
   text-decoration: none;
   background-color: #fff;
-  width: 24px;
-  height: 24px;
+  width: 42px;
+  height: 42px;
 }
 
 .socailMedia a:hover {
@@ -82,8 +82,8 @@
 }
 
 .socailMedia svg {
-  width: 20px;
-  height: 20px;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .socailMedia:hover {
@@ -119,9 +119,11 @@
   }
 
   .upperBlock > img {
-    width: 100% !important;
-    height: 45px !important;
-    margin: 20px 0px;
+    /* width: 100% !important; */
+    height: 70px !important;
+    aspect-ratio: 4.5/1;
+    margin-bottom: 50px;
+
   }
 
   .contact > h1 {
@@ -140,8 +142,12 @@
     font-size: 16px !important;
   }
 
+  .socailMedia{
+    width: 70% !important;
+  }
+
   .socailMedia > a {
-    width: 18px !important;
-    height: 18px !important;
+    width: 40px !important;
+    height: 40px !important;
   }
 }
