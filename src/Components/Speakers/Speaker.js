@@ -9,8 +9,8 @@ const Speaker = () => {
     const image_style = {
         margin: "auto",
         paddingBottom: "30px",
-        width: "250px",
-        height: "300px"
+        width: "200px",
+        height: "250px"
     };
     return (
         <>

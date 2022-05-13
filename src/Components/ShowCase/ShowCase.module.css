@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
 .showcase{
-    height: 140vh;
+    height: 120vh;
     background:linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.1)), url('../images/1st.jpg');
     background-position: center;
     background-size: cover;
@@ -8,17 +8,21 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
+    align-items:center;
 }
 .showcase_cont {
-    margin-top:50px;
+    margin-top:30px;
     text-align: center;
     color: #fff;
-    max-width: 50%;
+    width: 50%;
     height: 50%;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 .showcase_cont h1{
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
+}
+
+@media(max-width: 760px){
+    
 }
