@@ -13,8 +13,8 @@ const Footer = () => {
         <img src={logo} alt="" />
         <div className={style.contact}>
           <h1>CONTACT US</h1>
-          <a href="mailto: devbhoomihackathon@gmail.com">
-            devbhoomihackathon@gmail.com
+          <a href="mailto: dch2022@iitr.ac.in">
+            dch2022@iitr.ac.in
           </a>
           <p>For technical queries related to problem statements:</p>
           <div className={style.contactName}>
