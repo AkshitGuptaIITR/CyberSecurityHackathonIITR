@@ -3,7 +3,6 @@
   flex-direction: column;
   margin-top: 100px;
   background-color: #29166f;
-  /* height: 400px; */
   width: 100%;
   align-items: center;
 }
@@ -11,15 +10,16 @@
 .upperBlock {
   display: flex;
   width: 75%;
-  margin: 48px 0px ;
+  margin: 48px 0px;
   justify-content: space-between;
   height: 80%;
   align-items: center;
 }
 
 .footer > .upperBlock > img {
-  width: 400px;
-  height: 60px;
+  /* width: 400px; */
+  height: 80px;
+  aspect-ratio: 4.5/1;
 }
 
 .contact {
@@ -93,55 +93,54 @@
   cursor: pointer;
 }
 
-.line{
+.line {
   border-bottom: 2px solid #fff;
   opacity: 0.2;
   width: 80%;
 }
 
-.lowerBody{
+.lowerBody {
   color: #fff;
   margin: 24px 0px;
 }
 
-
-.lowerBody>span{
+.lowerBody > span {
   color: #efa506;
 }
 
 @media only screen and (max-width: 758px) {
-  .upperBlock{
+  .upperBlock {
     display: flex;
     flex-direction: column;
   }
 
-  .contact{
+  .contact {
     width: 100%;
   }
 
-  .upperBlock>img{
+  .upperBlock > img {
     width: 100% !important;
     height: 45px !important;
     margin: 20px 0px;
   }
 
-  .contact>h1{
+  .contact > h1 {
     font-size: 18px !important;
   }
 
-  .contact>a{
+  .contact > a {
     font-size: 14px !important;
   }
 
-  .contact>p{
+  .contact > p {
     font-size: 16px !important;
   }
 
-  .contactName{
+  .contactName {
     font-size: 16px !important;
   }
 
-  .socailMedia>a{
+  .socailMedia > a {
     width: 18px !important;
     height: 18px !important;
   }
