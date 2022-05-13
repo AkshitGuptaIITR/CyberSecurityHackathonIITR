@@ -1,28 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
-.showcase{
-    height: 120vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.1)), url('../images/bg1.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+.showcase {
+  height: 90vh;
+  margin-top: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.1)),
+    url("../images/bg1.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
 }
 .showcase_cont {
-    margin-top:110px;
-    text-align: center;
-    color: #fff;
-    width: 50%;
-    height: 50%;
-    font-size: 3rem;
+  /* margin-top: 110px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  /* width: 50%;
+  height: 50%; */
+  font-size: 3rem;
 }
-.showcase_cont h1{
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
+.showcase_cont h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
 }
 
-@media(max-width: 758px){
-    
+@media (max-width: 758px) {
+    .showcase_cont h1 {
+        font-size: 48px;
+        margin-bottom: 16px;
+    }   
 }

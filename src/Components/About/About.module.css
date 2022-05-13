@@ -1,21 +1,26 @@
-.about{
-    margin:auto;
-    width:80%;
-    padding:0px 35px 0 35px;
-    margin-top:50px;
+.about {
+  margin: auto;
+  width: 80%;
+  padding: 0px 35px 0 35px;
+  margin-top: 50px;
 }
-.about h2{
-    color: rgb(228, 15, 15);
-    text-align: center;
-    font-size:2rem;
-    font-weight:bold;
-    margin:50px 0 15px 0;
+.about h2 {
+  color: rgb(228, 15, 15);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 50px 0 15px 0;
 }
-.about p{
-    text-align: center;
-    color:rgb(3, 3, 119);
-    font-size:1.2rem;
-    letter-spacing:0.6px;
+.about p {
+  text-align: center;
+  color: rgb(3, 3, 119);
+  font-size: 1.2rem;
+  letter-spacing: 0.6px;
 }
 
-
+@media (max-width: 758px) {
+  .img {
+      width: 80%;
+      aspect-ratio: 2/1 !important;
+  }
+}

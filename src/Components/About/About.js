@@ -2,6 +2,7 @@ import React from "react";
 import style from "./About.module.css";
 import pic1 from "../images/police_logo.png";
 import pic2 from "../images/UPES logo.png";
+// import pic2 from "../../Assets/iitrlogo.png";
 
 const About = () => {
   const image_style = {
@@ -70,7 +71,7 @@ const About = () => {
         </p>
         <h2>UPES</h2>
 
-        <img alt={"UPES logo"} src={pic2} style={image_style} />
+        <img alt={"UPES logo"} src={pic2} style={image_style} className={style.img} />
         <p>
           Established in the year 2003 through the UPES Act of the State
           Legislature of Uttarakhand, UPES has been accredited Grade ‘A’ by NAAC
