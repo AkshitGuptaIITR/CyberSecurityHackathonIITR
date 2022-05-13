@@ -1,0 +1,37 @@
+.partner {
+  padding: 120px 35px 0 35px;
+  margin: auto;
+  width:80%;
+
+}
+.partner h2 {
+  color: rgb(228, 15, 15);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.partner_image{
+    display: grid;
+    row-gap: 50px;
+    column-gap: -100px;
+    margin-top:40px;
+}
+
+.partner_image img{
+    box-shadow: 0px 4px 25px rgba(2, 55, 78, 0.15);
+    border-radius: 12px;
+}
+
+.pic1 {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+}
+
+.pic10{
+    grid-column: 1/ span 4;
+    grid-row:4;
+}
+.image:hover{
+    cursor: pointer;
+}
