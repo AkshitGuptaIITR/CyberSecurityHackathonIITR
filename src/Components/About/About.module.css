@@ -20,7 +20,8 @@
 
 @media (max-width: 758px) {
   .img {
-      width: 80%;
-      aspect-ratio: 2/1 !important;
+    height: 100px;
+    /* width: 80%; */
+      aspect-ratio: 4.5/1 !important;
   }
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import style from "./About.module.css";
 import pic1 from "../images/police_logo.png";
-import pic2 from "../images/UPES logo.png";
-// import pic2 from "../../Assets/iitrlogo.png";
+// import pic2 from "../images/UPES logo.png";
+import pic2 from "../../Assets/iitrlogo.png";
 
 const About = () => {
   const image_style = {
@@ -69,9 +69,9 @@ const About = () => {
           essence of the Khaki, on whom we can depend to keep our state safe and
           crime-free.
         </p>
-        <h2>UPES</h2>
+        <h2>IIT Roorkee</h2>
 
-        <img alt={"UPES logo"} src={pic2} style={image_style} className={style.img} />
+        <img alt={"UPES logo"} src={pic2} style={{...image_style, width: '80%'}} className={style.img} />
         <p>
           Established in the year 2003 through the UPES Act of the State
           Legislature of Uttarakhand, UPES has been accredited Grade ‘A’ by NAAC
