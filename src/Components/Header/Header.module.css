@@ -1,4 +1,4 @@
-.header{
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -13,12 +13,12 @@
   justify-content: space-between;
 }
 
-.header>img{
+.header > img {
   height: 60px;
   aspect-ratio: 4.5/1;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: row;
   width: 70%;
@@ -26,7 +26,7 @@
   justify-content: space-between;
 }
 
-.links>a{
+.links > a {
   color: #ffffff;
   text-decoration: none;
   font-size: 18px;
@@ -87,8 +87,26 @@ nav {
     margin: 5px;
   }
 
-  nav {
-    position: relative;
+  .mobileLinks {
+    /* display: none; */
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 800ms ease-in;
+  }
+
+  .mobileLinks>a{
+    margin: 16px 0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 800ms ease-in;
   }
 
   .hamburger {
@@ -98,49 +116,21 @@ nav {
     top: 50%;
     transform: translate(-5%, -50%);
     z-index: 2;
+    background-color: #29166f;
+    transition: 800ms ease-in;
   }
 
-  .nav-links {
-    position: fixed;
-    background: #5b78c7;
-    height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(100px at 90% -10%);
-    transition: all 1s ease-out;
-    pointer-events: none;
+  .circle {
+    background-color: black;
+    width: 2px;
+    height: 2px;
+    border-radius: 100%;
+    transition: 800ms ease-in;
+    /* transform: scale(20); */
   }
 
-  .nav-links.open {
-    clip-path: circle(1300px at 90% -10%);
-    -webkit-clip-path: circle(1300px at 90% -10%);
-    pointer-events: all;
-  }
-
-  .nav-links li {
-    opacity: 0;
-  }
-
-  .nav-links li a {
-    font-size: 25px;
-  }
-
-  .nav-links li:nth-child(1) {
-    transition: all 0.5s ease 0.2s;
-  }
-
-  .nav-links li:nth-child(2) {
-    transition: all 0.5s ease 0.4s;
-  }
-
-  .nav-links li:nth-child(3) {
-    transition: all 0.5s ease 0.6s;
-  }
-
-  li.fade {
-    opacity: 1;
+  .navBarOpen {
+    transform: scale(850);
+    transition: 800ms ease-in;
   }
 }
-
-

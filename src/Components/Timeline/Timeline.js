@@ -6,7 +6,7 @@ import pic1 from "../images/timeline.png";
 const Timeline = () => {
     return (
         <>
-            <div className={style.Timeline}>
+            <div className={style.Timeline} id="timeline">
                 <h2>TIMELINE</h2>
                 <img alt={"timeline"} src={pic1} style={{
                     width: "80%",

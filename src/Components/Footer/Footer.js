@@ -8,7 +8,7 @@ import { RiLinkedinFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <footer className={style.footer}>
+    <footer className={style.footer} id="contact">
       <div className={style.upperBlock}>
         <img src={logo} alt="" />
         <div className={style.contact}>

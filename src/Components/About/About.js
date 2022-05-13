@@ -15,7 +15,7 @@ const About = () => {
   };
   return (
     <>
-      <div className={style.about}>
+      <div className={style.about} id="about">
         <h2>DEVBHOOMI CYBER HACKATHON</h2>
         <p>
           “Every Contact by a criminal leaves behind a trace” -Edmond Locard
