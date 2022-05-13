@@ -3,13 +3,14 @@
   flex-direction: column;
   margin-top: 100px;
   background-color: #29166f;
-  height: 400px;
+  /* height: 400px; */
   align-items: center;
 }
 
 .upperBlock {
   display: flex;
   width: 75%;
+  margin: 48px 0px ;
   justify-content: space-between;
   height: 80%;
   align-items: center;
@@ -17,7 +18,7 @@
 
 .footer > .upperBlock > img {
   width: 400px;
-  height: 70px;
+  height: 60px;
 }
 
 .contact {
@@ -95,4 +96,14 @@
   border-bottom: 2px solid #fff;
   opacity: 0.2;
   width: 80%;
+}
+
+.lowerBody{
+  color: #fff;
+  margin: 24px 0px;
+}
+
+
+.lowerBody>span{
+  color: #efa506;
 }

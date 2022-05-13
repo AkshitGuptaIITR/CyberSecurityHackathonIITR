@@ -10,10 +10,11 @@ const Timeline = () => {
                 <h2>TIMELINE</h2>
                 <img alt={"timeline"} src={pic1} style={{
                     width: "80%",
-                    height: "100vh",
+                    // height: "100vh",
                     display: "block",
                     marginLeft: "auto",
-                    marginRight: "auto"
+                    marginRight: "auto",
+                    aspectRatio: "2/1"
                 }} />
             </div>
         </>

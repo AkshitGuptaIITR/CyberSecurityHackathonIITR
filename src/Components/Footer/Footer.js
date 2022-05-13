@@ -40,7 +40,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-        <div className={style.line}></div>
+      <div className={style.line}></div>
+      <div className={style.lowerBody}>
+        <span>©</span>2021 DEVBHOOMI CYBER HACKATHON
+      </div>
     </footer>
   );
 };
