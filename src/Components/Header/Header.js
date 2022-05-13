@@ -12,11 +12,11 @@ const Header = () => {
       <img src={logo} alt="" />
       {width <= 728 ? (
         <>
-          <div className={style.hamburger} onClick={() => setOpen(!open)}>
+          {/* <div className={style.hamburger} onClick={() => setOpen(!open)}>
             <div className={style.line}></div>
             <div className={style.line}></div>
             <div className={style.line}></div>
-          </div>
+          </div> */}
         </>
       ) : (
         <>
