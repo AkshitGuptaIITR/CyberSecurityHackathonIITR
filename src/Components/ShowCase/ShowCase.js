@@ -18,7 +18,7 @@ const ShowCase = () => {
               style={{ color: "#efa506" }}
               className={style.Icon}
             />{" "}
-            10-12 Nov, 2021
+            9-12 Aug, 2021
           </p>
         </div>
       </div>
