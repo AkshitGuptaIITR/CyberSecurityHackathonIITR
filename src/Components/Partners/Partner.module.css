@@ -35,3 +35,22 @@
 .image:hover{
     cursor: pointer;
 }
+@media only screen and (max-width: 758px) {
+    .partner_image{
+        display:flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+}
+@media only screen and (min-width: 760px) and (max-width: 1025) {
+    .partner_image{
+        display: grid;
+        row-gap: 50px;
+        margin-top:20px;
+    }
+    .pic1{
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+}
+

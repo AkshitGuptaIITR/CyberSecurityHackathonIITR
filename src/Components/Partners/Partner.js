@@ -42,16 +42,16 @@ const Partner = () => {
             <div className={style.partner}>
                 <h2>OFFICIAL KNOWLEDGE PARTNERS</h2>
                 <div className={style.partner_image}>
-                    <img alt={"Police"} src={pic1} style={image_style1} className={`${style.pic1} ${style.image}`} />
-                    <img alt={"Police"} src={pic2} style={image_style2} className={`${style.pic2} ${style.image}`} />
-                    <img alt={"Police"} src={pic3} style={image_style2} className={`${style.pic3} ${style.image}`} />
-                    <img alt={"Police"} src={pic4} style={image_style2} className={`${style.pic4} ${style.image}`} />
-                    <img alt={"Police"} src={pic5} style={image_style2} className={`${style.pic5} ${style.image}`} />
-                    <img alt={"Police"} src={pic6} style={image_style1} className={`${style.pic6} ${style.image}`} />
-                    <img alt={"Police"} src={pic7} style={image_style1} className={`${style.pic7} ${style.image}`} />
-                    <img alt={"Police"} src={pic8} style={image_style3} className={`${style.pic8} ${style.image}`} />
-                    <img alt={"Police"} src={pic9} style={image_style1} className={`${style.pic9} ${style.image}`} />
-                    <img alt={"Police"} src={pic10} style={image_style3} className={`${style.pic10} ${style.image}`} />
+                    <img alt={"Police"} src={pic1} style={image_style1} className={`${style.pic1} ${style.image_style1}`} />
+                    <img alt={"Police"} src={pic2} style={image_style2} className={`${style.pic2} ${style.image_style2}`} />
+                    <img alt={"Police"} src={pic3} style={image_style2} className={`${style.pic3} ${style.image_style2}`} />
+                    <img alt={"Police"} src={pic4} style={image_style2} className={`${style.pic4} ${style.image_style2}`} />
+                    <img alt={"Police"} src={pic5} style={image_style2} className={`${style.pic5} ${style.image_style2}`} />
+                    <img alt={"Police"} src={pic6} style={image_style1} className={`${style.pic6} ${style.image_style1}`} />
+                    <img alt={"Police"} src={pic7} style={image_style1} className={`${style.pic7} ${style.image_style1}`} />
+                    <img alt={"Police"} src={pic8} style={image_style3} className={`${style.pic8} ${style.image_style3}`} />
+                    <img alt={"Police"} src={pic9} style={image_style1} className={`${style.pic9} ${style.image_style1}`} />
+                    <img alt={"Police"} src={pic10} style={image_style3} className={`${style.pic10} ${style.image_style3}`} />
                 </div>
             </div>
         </>
