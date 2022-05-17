@@ -1,35 +1,50 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
 .showcase {
   height: 90vh;
   margin-top: 100px;
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.1)),
-    url("../images/bg1.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+  background: #001D39;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-around;
   background-attachment: fixed;
 }
 .showcase_cont {
   /* margin-top: 110px; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  justify-content: flex-start;
   color: #fff;
-  /* width: 50%;
-  height: 50%; */
-  font-size: 3rem;
+  width: 20%;
+  /* height: 50%; */
 }
 .showcase_cont h1 {
-  font-family: "Roboto Condensed", sans-serif;
-  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-align:left;
+  font-weight:900;
+  font-size: 48px;
+  line-height:58.51px;
+  letter-spacing:10%;
+  margin-bottom: 15px;
+}
+.showcase_cont p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:200;
+  font: size 16px;
+  line-height:19.5px;
+  letter-spacing:10%;
+}
+.image{
+display: block;
+width: 615.69px;
+height: 492.34px;
+left: 734.09px;
+top: 204px;
+background-image: linear-gradient(to right, #001D39, #fff);
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
 @media (max-width: 758px) {
