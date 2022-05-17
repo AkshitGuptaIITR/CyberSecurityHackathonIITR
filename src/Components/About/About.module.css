@@ -24,4 +24,11 @@
     /* width: 80%; */
       aspect-ratio: 4.5/1 !important;
   }
+  .about{
+    padding: 12px 0 !important;
+  }
+
+  .about p{
+    text-align: justify !important;
+  }
 }
