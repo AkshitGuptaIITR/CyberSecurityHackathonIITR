@@ -1,14 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable no-unused-vars */
-import React, { useState } from "react";
+import React, {useEffect, useState } from "react";
 import style from "./Header.module.css";
 import logo from "../../Assets/iitrlogo.png";
+import policeLogo from "../../Assets/policeLogo.png";
 import { useWindowWidth } from "@react-hook/window-size";
 
 const Header = () => {
   const width = useWindowWidth();
   const [open, setOpen] = useState(false);
   const [nameClass, setNameClass] = useState("");
+  const [activeDiv, setActiveDiv] = useState("about");
 
   const handleClick = () => {
     setOpen(!open);
@@ -19,9 +21,53 @@ const Header = () => {
     }
   };
 
+  useEffect(() => {
+    var observer = new IntersectionObserver(
+      function (entries) {
+        if (entries[0].isIntersecting === true) {
+          setActiveDiv(entries[0].target.id);
+        }
+      },
+      { threshold: [1] }
+    );
+
+    const appDiv = document.getElementById("app");
+    const About = document.getElementById("about");
+    const Speaker = document.getElementById("speaker");
+    const Jury = document.getElementById("jury");
+    const Timeline = document.getElementById('timeline');
+    const Schedule = document.getElementById('schedule');
+    const ProblemStatements = document.getElementById('problem');
+    const Partners = document.getElementById('partner');
+    const Contact = document.getElementById('contact');
+
+    console.log(appDiv)
+
+    appDiv.addEventListener("scroll", (e) => {
+      console.log('cehcl')
+      observer.observe(Jury);
+      observer.observe(Speaker);
+      observer.observe(About);
+      observer.observe(Timeline);
+      observer.observe(Schedule);
+      observer.observe(ProblemStatements);
+      observer.observe(Partners);
+      observer.observe(Contact);
+    });
+  }, [activeDiv]);
+
+  document.getElementById('app').addEventListener('scroll', function(){
+    console.log('asdsa')
+  })
+  
+  console.log(activeDiv)
+
   return (
-    <header className={style.header}>
-      <img src={logo} alt="" />
+    <header className={style.header} id="header">
+      <div>
+        <img src={logo} alt="" />
+        <img src={policeLogo} style={{ marginLeft: "20px" }} alt="" />
+      </div>
       {width <= 728 ? (
         <>
           <div

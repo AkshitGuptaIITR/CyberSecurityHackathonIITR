@@ -39,7 +39,7 @@ const Partner = () => {
     }
     return (
         <>
-            <div className={style.partner}>
+            <div className={style.partner} id="partner">
                 <h2>OFFICIAL KNOWLEDGE PARTNERS</h2>
                 <div className={style.partner_image}>
                     <img alt={"Police"} src={pic1} style={image_style1} className={`${style.pic1} ${style.image_style1}`} />

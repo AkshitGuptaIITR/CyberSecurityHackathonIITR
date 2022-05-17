@@ -11,7 +11,7 @@ import Partner from "./Components/Partners/Partner";
 
 function App() {
   return (
-    <>
+    <div id="app">
       <Header />
       <ShowCase />
       <About />
@@ -22,7 +22,7 @@ function App() {
       <ProblemStatements />
       <Partner />
       <Footer />
-    </>
+    </div>
   );
 }
 
