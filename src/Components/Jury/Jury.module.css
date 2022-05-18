@@ -19,7 +19,6 @@ line-height: 39px;
 .jury_images {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content:space-evenly;
 }
 .speaker_box{

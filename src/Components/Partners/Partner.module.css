@@ -1,38 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
 .partner {
   padding: 120px 35px 0 35px;
   margin: auto;
-  width:80%;
-
+  width:90%;
+    align-items: center;
 }
 .partner h2 {
-  color: rgb(228, 15, 15);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
   text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  margin-bottom: 24px;
+  font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+  margin-bottom:50px;
 }
 .partner_image{
-    display: grid;
-    row-gap: 50px;
-    column-gap: -100px;
-    margin-top:40px;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom:250px;
 }
 
 .partner_image img{
-    box-shadow: 0px 4px 25px rgba(2, 55, 78, 0.15);
     border-radius: 12px;
 }
 
-.pic1 {
-    grid-column: 1 / span 4;
-    grid-row: 1;
-}
-
-.pic10{
-    grid-column: 1/ span 4;
-    grid-row:4;
-}
-.image:hover{
+.partner_image:hover{
     cursor: pointer;
 }
 @media only screen and (max-width: 758px) {
@@ -41,16 +35,9 @@
         flex-direction: column;
         margin: 10px;
     }
-}
-@media only screen and (min-width: 760px) and (max-width: 1025) {
-    .partner_image{
-        display: grid;
-        row-gap: 50px;
-        margin-top:20px;
-    }
-    .pic1{
-        grid-column: 1 / span 3;
-        grid-row: 1;
+    .partner_image img{
+        margin-bottom: 20px;
     }
 }
+
 

@@ -8,14 +8,7 @@ const Timeline = () => {
         <>
             <div className={style.Timeline} id="timeline">
                 <h2>TIMELINE</h2>
-                <img alt={"timeline"} src={pic1} style={{
-                    width: "100%",
-                    height: "170vh",
-                    display: "block",
-                    marginLeft: "auto",
-                    marginRight: "auto",
-                    aspectRatio: "1.5/1"
-                }} />
+                <img alt={"timeline"} src={pic1} className={style.image_style} />
             </div>
         </>
     )

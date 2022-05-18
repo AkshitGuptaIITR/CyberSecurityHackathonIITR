@@ -8,7 +8,7 @@ import pic4 from "../../Assets/image 1465.jpg";
 const Speaker = () => {
     return (
         <>
-            <div className={style.speaker}>
+            <div className={style.speaker} id="speaker">
                 <h2>KEYNOTE SPEAKERS</h2>
                 <div className={style.speakers_image}>
                     <div className={style.speaker_img}>

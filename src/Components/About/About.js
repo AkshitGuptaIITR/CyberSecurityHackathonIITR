@@ -7,13 +7,13 @@ import pic2 from "../../Assets/image 1462 (1).jpg";
 const About = () => {
   return (
     <>
-      <div className={style.about} >
+      <div className={style.about} id="about">
         <div className={style.heading_style}>
           <h2>ABOUT DEVBHOOMI CYBER HACKATHON</h2>
         </div>
         <div className={style.sectors}>
           <div className={style.about_content}>
-            <p>
+            <p className={style.par1}>
               <i>“Every Contact by a criminal leaves behind a trace”</i> -Edmond Locard
               <br />
               <br />
@@ -49,7 +49,7 @@ const About = () => {
             <img alt={"Police logo"} src={pic1} className={style.Image_style2} />
           </div>
           <div className={style.about_content}>
-            <p>
+            <p className={style.par2}>
               Abiding by its motto “मित्रता, सेवा, सुरक्षा“, the mission of
               Uttarakhand police is to maintain law and order and provide efficient
               delivery of service to the state citizens by handling prevention and
@@ -78,14 +78,12 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className={style.heading_style}>
-          <h2 style={{
-            marginBottom: "-70px"
-          }}>IIT Roorkee</h2>
+        <div className={style.heading_style3}>
+          <h2>IIT Roorkee</h2>
         </div>
         <div className={style.sectors}>
           <div className={style.about_content}>
-            <p>
+            <p className={style.par3}>
               Established in the year 2003 through the UPES Act of the State
               Legislature of Uttarakhand, UPES has been accredited Grade ‘A’ by NAAC
               through the sheer perseverance of students and faculties alike. Ranked
