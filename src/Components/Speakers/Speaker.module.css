@@ -1,24 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
 .speaker {
   padding: 0 35px 0 35px;
   margin: 48px 0 !important;
+  width: 90% !important;
+  align-items: center;
 }
 
 .speaker h2 {
-  color: rgb(228, 15, 15);
+  font-family: 'Montserrat', sans-serif;
+  color: white;
   text-align: center;
-  font-size: 2.3rem;
-  font-weight: bold;
-  margin-bottom: 24px;
+  font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+  margin-bottom:50px;
 }
 
-.speaker_image {
-  display: grid;
-  row-gap: 35px;
+.speakers_image {
+  display: flex;
+  flex-direction: row;
+}
+.speaker_box{
+  width: 257px;
+height: 80px;
+background: #fff;
+margin-left: 15px;
+}
+.speaker_content1 p{
+  margin-top:15px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: capitalize;
+color: #000000;}
+
+.speaker_content2 p{
+  margin-top: 10px;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #000000;
 }
 
-.pic1 {
-  grid-column: 1 / span 3;
-  grid-row: 1;
+.speaker_img{
+  display: flex;
+  flex-direction: column;
+}
+.image_style{
+  display:block;
+  width: 257.5px;
+height: 320.03px;
+margin:0 25px 35px 15px;
 }
 
 @media only screen and (max-width: 758px) {
