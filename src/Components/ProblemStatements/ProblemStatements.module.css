@@ -7,7 +7,7 @@
 }
 
 .structure h1 {
-  color: rgb(228, 15, 15);
+  color: #fff;
   text-align: center;
   font-size: 2.3rem;
   font-weight: bold;
@@ -18,7 +18,7 @@ table{
   margin: 12px 0;
   border-spacing: 0;
     border-collapse: collapse;
-  color: #29166f;
+  color: #fff;
 }
 
 table td, table th{
