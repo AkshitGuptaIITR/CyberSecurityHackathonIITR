@@ -26,7 +26,7 @@ const Footer = () => {
           <img src={logo} alt="" />
           <img src={outreach} alt="" />
           <div>
-            <img src={police} alt="" />
+            <img src={police} alt="" style={{height: 100}} />
             <h1>UTTARARKHAND POLICE</h1>
           </div>
         </div>

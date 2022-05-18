@@ -160,6 +160,10 @@
     text-align: center;
   }
 
+  .images h1{
+    display: flex;
+  }
+
   .images {
     display: flex;
     flex-direction: column;
