@@ -8,12 +8,14 @@ import Timeline from "./Components/Timeline/Timeline";
 import Event from "./Components/Event Schedule/Event";
 import ProblemStatements from "./Components/ProblemStatements/ProblemStatements";
 import Partner from "./Components/Partners/Partner";
+import CountDown from "./Components/Countdown/CountDown";
 
 function App() {
   return (
     <div id="app">
       <Header />
       <ShowCase />
+      <CountDown />
       <About />
       <Speaker />
       <Jury />

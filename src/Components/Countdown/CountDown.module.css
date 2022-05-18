@@ -1,0 +1,41 @@
+.countDown {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.content {
+  margin: 0px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.content h1 {
+  font-weight: 600;
+  font-size: 90px;
+}
+
+.content p {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width: 758px) {
+  .content h1{
+    font-size: 36px !important;
+  }
+
+  .content p{
+    font-size: 8px;
+  }
+
+  .content{
+    margin: 0 16px !important;
+  }
+}
