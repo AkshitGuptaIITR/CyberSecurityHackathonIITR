@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
-body{
-  background-color: #001D39;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap");
+body {
+  background-color: #001d39;
 }
 .about {
   margin: auto;
@@ -8,91 +8,92 @@ body{
   padding: 0px 35px 0 35px;
   margin-top: 50px;
 }
-.sectors{
-height: 90vh;
+.sectors {
+  /* height: 90vh; */
   margin-top: 100px;
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   background-attachment: fixed;
   flex-wrap: wrap;
 }
-.about_content{
+.about_content {
   color: #fff;
-  width:55%;
+  width: 55%;
 }
 
-.heading_style2{
+.heading_style2 {
   margin-left: 480px;
 }
-.heading_style2 h2{
+.heading_style2 h2 {
   color: #fff;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-margin-bottom:-70px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* margin-bottom: -70px; */
 }
 
-
-.heading_style, .heading_style3{
-  margin-top:100px;
+.heading_style,
+.heading_style3 {
+  margin-top: 100px;
 }
-.heading_style h2, .heading_style3 h2{
+.heading_style h2,
+.heading_style3 h2 {
   color: #fff;
-  font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 39px;
-margin-bottom:-135px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  /* margin-bottom: -135px; */
 }
-.about_content p{
-  font-family: 'Montserrat';
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-text-align: justify;
-letter-spacing: 0.005em;
-}
-
-.Image_style{
-  display: block;
-width: 451px;
-height: 353px;
-
+.about_content p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: justify;
+  letter-spacing: 0.005em;
 }
 
-.Image_style2{
+.Image_style {
+  /* display: block; */
+  width: 451px;
+  height: 353px;
+}
+
+.Image_style2 {
   display: block;
   width: 317px;
-height: 317px;
-margin-top: -145px;
+  height: 317px;
+  margin-top: -145px;
 }
-.Image_style3{
+.Image_style3 {
   display: block;
   width: 347px;
-height: 313px;
+  height: 313px;
 }
-.par3{
-  margin-top:60px
+.par3 {
+  margin-top: 60px;
 }
 
 @media (max-width: 758px) {
-  h2{
-font-style: normal;
-font-size: 21px !important;
-line-height: 26px;
-text-align: center !important;
+  h2 {
+    font-style: normal;
+    font-size: 21px !important;
+    line-height: 26px;
+    text-align: center !important;
   }
-  .sectors{
-    align-items: center
+  .sectors {
+    align-items: center;
+    flex-direction: column-reverse;
   }
-  
-  .heading_style2{
+
+  .heading_style2 {
     margin-left: 0px;
     margin-top: 600px;
   }
@@ -100,49 +101,51 @@ text-align: center !important;
     margin-top: 220px;
   }
 
-  .about_content{
-    margin-left: 50px;
+  .about_content {
+    width: 90%;
+    /* margin-left: 50px; */
   }
-  .par1{
-     margin-top: 280px;
+  .par1 {
+    margin-top: 280px;
   }
-  .par2{
-      margin-top: 170px;
-      margin-left: -120px;
+  .par2 {
+    margin-top: 170px;
+    margin-left: -120px;
   }
-  .par3{
+  .par3 {
     margin-top: 240px;
   }
-  .about_content p{
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
+  .about_content p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    margin: 0;
   }
-  .Image_style{
-    position: absolute;
-width: 295px;
-height: 229px;
-left: 33px;
-top: 822px;
+  .Image_style {
+    /* position: absolute; */
+    width: 295px;
+    height: 229px;
+    left: 33px;
+    top: 822px;
   }
-  .Image_style2{
+  .Image_style2 {
     margin-top: 0px;
-    position: absolute;
-width: 186px;
-height: 186px;
-left: 88px;
-top: 2100px;
+    /* position: absolute; */
+    width: 186px;
+    height: 186px;
+    left: 88px;
+    top: 2100px;
   }
-  .Image_style3{
-    position: absolute;
-width: 193.1px;
-height: 185px;
-left: 105px;
-top: 3000px;
+  .Image_style3 {
+    /* position: absolute; */
+    width: 193.1px;
+    height: 185px;
+    left: 105px;
+    top: 3000px;
   }
-  .about p{
+  .about p {
     text-align: center !important;
-    padding-top:40px;
+    padding-top: 40px;
   }
 }
