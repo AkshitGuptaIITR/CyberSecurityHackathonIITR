@@ -62,9 +62,8 @@ margin:0 25px 35px 15px;
 }
 
 @media only screen and (max-width: 758px) {
-  .pic1 {
-    grid-column: 2 !important;
-    grid-row: 1;
+  .speaker h2{
+    margin-top:800px;
   }
   .speaker_image{
       display: flex !important;
