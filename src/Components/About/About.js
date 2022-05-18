@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./About.module.css";
-import pic1 from "../images/police_logo.png";
+// import pic1 from "../images/police_logo.png";
+import pic1 from "../../Assets/policeLogo.png";
 import pic from "../../Assets/Asset 1 1.jpg";
 import pic2 from "../../Assets/image 1462 (1).jpg";
 
@@ -11,7 +12,7 @@ const About = () => {
         <div className={style.heading_style}>
           <h2>ABOUT DEVBHOOMI CYBER HACKATHON</h2>
         </div>
-        <div className={style.sectors}>
+        <div className={`${style.sectors} ${style.colreverse}`}>
           <div className={style.about_content}>
             <p className={style.par1}>
               <i>“Every Contact by a criminal leaves behind a trace”</i> -Edmond Locard
@@ -20,7 +21,7 @@ const About = () => {
               As cybercrime continues to grow exponentially, cybercriminals are
               innovating with the advancement of technology. At the same time,
               Uttarakhand Police remains committed to arrest such criminals and
-              mitigate crime. With the same zeal, we present the first-ever Cyber
+              mitigate crime. <br /><br /> With the same zeal, we present the first-ever Cyber
               Hackathon in the state of Uttarakhand. UPES supports Devbhoomi Cyber
               Hackathon being organised by the Uttarakhand Police. With the
               increasing reliance on technology, cybersecurity has become an even
@@ -30,7 +31,7 @@ const About = () => {
               the platform to showcase your big idea to change the “CyberSpace”. A
               platform to let the hidden stars of tomorrow shine. A place to
               connect, grow and innovate with like-minded individuals. A place to
-              forge bonds and code over coffee and ideas. So come, join us at
+              forge bonds and code over coffee and ideas.<br /><br /> So come, join us at
               DEVBHOOMI CYBER HACKATHON and take up the challenge to outdo, outthink
               and outcode your biggest opponent, you yourself.
             </p>
@@ -41,7 +42,8 @@ const About = () => {
         </div>
         <br />
         <br />
-        <br /><div className={style.heading_style2}>
+        <br />
+        <div className={style.heading_style2}>
           <h2>UTTARAKHAND POLICE</h2>
         </div>
         <div className={style.sectors}>
@@ -81,7 +83,7 @@ const About = () => {
         <div className={style.heading_style3}>
           <h2>IIT Roorkee</h2>
         </div>
-        <div className={style.sectors}>
+        <div className={`${style.sectors} ${style.colreverse}`}>
           <div className={style.about_content}>
             <p className={style.par3}>
               Established in the year 2003 through the UPES Act of the State

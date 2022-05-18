@@ -12,6 +12,10 @@
   justify-content: space-between;
 }
 
+.header img {
+  height: 56px;
+}
+
 .links {
   display: flex;
   flex-direction: row;
@@ -90,8 +94,8 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
-  header img{
-    height: 40px;
+  header img {
+    height: 40px !important;
   }
   .line {
     width: 30px;
@@ -124,7 +128,7 @@ nav {
   }
 
   .hamburger {
-    position:inherit;
+    position: inherit;
     cursor: pointer;
     /* right: 5%;
     top: 50%; */
@@ -135,6 +139,7 @@ nav {
   }
 
   .circle {
+    position: fixed;
     background-color: black;
     width: 2px;
     height: 2px;

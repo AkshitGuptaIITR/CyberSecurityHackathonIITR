@@ -1,50 +1,102 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Jury.module.css";
 import pic1 from "../../Assets/image 1466.jpg";
 import pic2 from "../../Assets/image 1464.jpg";
 import pic3 from "../../Assets/image 1467.jpg";
 import pic4 from "../images/oc.png";
+import left from "../../Assets/left.png";
+import right from "../../Assets/right.png";
 
 const Jury = () => {
+  const [id, setId] = useState(0);
+
+  const handleLeft = () => {
+    if (id === 0) {
+      setId(array.length - 1);
+    } else {
+      setId(id - 1);
+    }
+  };
+
+  const handleRight = () => {
+    if (id === array.length - 1) {
+      setId(0);
+    } else {
+      setId(id + 1);
+    }
+  };
+
+  const array = [
+    {
+      image: pic1,
+      name: "Sh. Amit Kumar Sinha",
+      position: "IG Telecom/ P&M/ Dir. Vigilance",
+    },
+    {
+      image: pic2,
+      name: "Sh. senthil Avoodai Krishna Raj S",
+      position: "I/C DIG P&M",
+    },
+    {
+      image: pic3,
+      name: "Smt. Nivedita Kukreti Kumar",
+      position: "SSP Inteligence",
+    },
+  ];
+
   return (
     <>
       <div className={style.Jury} id="jury">
         <h2>DISTINGUISHED JURY</h2>
         <div className={style.jury_images}>
-          <div className={style.jury_img}>
-            <img alt={"Police"} src={pic1} className={style.image_style} />
+          {array.map((juryData, idx) => {
+            return (
+              <div key={idx} className={style.jury_img}>
+                <img
+                  alt={"Police"}
+                  src={juryData.image}
+                  className={style.image_style}
+                />
+                <div className={style.speaker_box}>
+                  <div className={style.speaker_content1}>
+                    <p>{juryData.name}</p>
+                  </div>
+                  <div className={style.speaker_content2}>
+                    <p>{juryData.position}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+        <div className={style.mobileView}>x
+          <img src={left} alt="" onClick={handleLeft} />
+          <div className={style.speaker_img}>
+            <img
+              alt={"Police"}
+              src={array[id].image}
+              className={style.image_style}
+            />
             <div className={style.speaker_box}>
               <div className={style.speaker_content1}>
-                <p> Sh. Amit Kumar Sinha</p>
+                <p> {array[id].name}</p>
               </div>
               <div className={style.speaker_content2}>
-                <p> IG Telecom/ P&M/ Dir. Vigilance</p>
+                <p> {array[id].position}</p>
               </div>
             </div>
           </div>
-          <div className={style.jury_img}>
-            <img alt={"Police"} src={pic2} className={style.image_style} />
-            <div className={style.speaker_box}>
-              <div className={style.speaker_content1}>
-                <p> Sh. senthil Avoodai Krishna Raj S</p>
-              </div>
-              <div className={style.speaker_content2}>
-                <p> I/C DIG P&M</p>
-              </div>
-            </div>
-          </div>
-          <div className={style.jury_img}>
-            <img alt={"Police"} src={pic3} className={style.image_style} />
-            <div className={style.speaker_box}>
-              <div className={style.speaker_content1}>
-                <p> Smt. Nivedita Kukreti Kumar</p>
-              </div>
-              <div className={style.speaker_content2}>
-                <p> SSP Inteligence</p>
-              </div>
-            </div>
-          </div>
-
+          <img src={right} alt="" onClick={handleRight} />
+        </div>
+        <div className={style.dots}>
+          {array.map((data, idx) => {
+            return (
+              <div
+                className={`${idx === id ? style.selectedDot : ""} ${style.dot
+                  }`}
+              ></div>
+            );
+          })}
         </div>
         <h2>ORGANISING COMMITTEE</h2>
         <img
