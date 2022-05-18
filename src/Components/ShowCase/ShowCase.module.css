@@ -1,13 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&display=swap");
 .showcase {
-  height: 90vh;
-  margin-top: 100px;
-  background: #001D39;
+  height: 80vh;
+  /* margin-top: 100px; */
+  background: #001d39;
   width: 100%;
+  padding: 0 10%;
   display: flex;
   flex-direction: row;
-  align-items:center;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   background-attachment: fixed;
 }
 .showcase_cont {
@@ -20,37 +22,59 @@
   /* height: 50%; */
 }
 .showcase_cont h1 {
-  font-family: 'Montserrat', sans-serif;
-  text-align:left;
-  font-weight:900;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-weight: 900;
   font-size: 48px;
-  line-height:58.51px;
-  letter-spacing:10%;
+  line-height: 58.51px;
+  letter-spacing: 10%;
   margin-bottom: 15px;
 }
-.showcase_cont p{
-  font-family: 'Montserrat', sans-serif;
-  font-weight:200;
+.showcase_cont p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
   font: size 16px;
-  line-height:19.5px;
-  letter-spacing:10%;
+  line-height: 19.5px;
+  letter-spacing: 10%;
 }
-.image{
-display: block;
-width: 615.69px;
-height: 492.34px;
-left: 734.09px;
-top: 204px;
-background-image: linear-gradient(to right, #001D39, #fff);
-background-repeat: no-repeat;
-  background-attachment: fixed;
+.image {
+  display: flex;
+  justify-content: flex-end;
+  /* width: 50%; */
+  /* aspect-ratio: 2/1; */
+  /* height: 492.34px; */
+  /* background-image: linear-gradient(to right, #001d39, #fff); */
+  /* background-repeat: no-repeat; */
+  /* background-attachment: fixed; */
   overflow: hidden;
 }
 
+.image img{
+  width: 100%;
+}
+
 @media (max-width: 758px) {
-    .showcase_cont h1 {
-        font-size: 48px;
-        width: 80%;
-        margin-bottom: 16px;
-    }   
+  .showcase_cont h1 {
+    font-size: 24px;
+    width: 80%;
+    line-height: 30px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .showcase_cont p{
+    width: 80%;
+  }
+
+  .showcase_cont{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .image{
+    display: flex;
+    width: 100% !important;
+  }
 }
