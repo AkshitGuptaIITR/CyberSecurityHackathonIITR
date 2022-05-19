@@ -20,7 +20,7 @@ function App() {
       <Speaker />
       <Jury />
       <Timeline />
-      <Event />
+      {/* <Event /> */}
       <ProblemStatements />
       <Partner />
       <Footer />

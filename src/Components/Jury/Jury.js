@@ -30,17 +30,17 @@ const Jury = () => {
     {
       image: pic1,
       name: "Sh. Amit Kumar Sinha",
-      position: "IG Telecom/ P&M/ Dir. Vigilance",
+      position: "ADG",
     },
     {
       image: pic2,
-      name: "Sh. senthil Avoodai Krishna Raj S",
-      position: "I/C DIG P&M",
+      name: "Sh. Senthil Avoodai Krishna Raj S",
+      position: "DIG STF/P&M",
     },
     {
       image: pic3,
       name: "Smt. Nivedita Kukreti Kumar",
-      position: "SSP Inteligence",
+      position: "DIG Intelligence",
     },
   ];
 
@@ -102,7 +102,8 @@ const Jury = () => {
           })}
         </div>
         <h2>ORGANISING COMMITTEE</h2>
-        <img
+        <p>Will be updated soon!</p>
+        {/* <img
           alt={"committee"}
           src={pic4}
           style={{
@@ -112,7 +113,7 @@ const Jury = () => {
             marginRight: "auto",
             aspectRatio: "2/1",
           }}
-        />
+        /> */}
       </div>
     </>
   );

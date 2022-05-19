@@ -35,7 +35,7 @@ const Speaker = () => {
     {
       image: pic2,
       name: "Sh. v. Murugesan",
-      position: "IG STF/LO",
+      position: "ADG LO/ STF",
     },
     {
       image: pic3,

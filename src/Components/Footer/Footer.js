@@ -44,15 +44,15 @@ const Footer = () => {
           <h1>CONTACT US</h1>
           <p>For technical queries related to problem statements:</p>
           <div className={style.contactName}>
-            <a href="tel: +919458947333">
+            <a href="tel: +911332285647">
               {" "}
-              <img src={phone} alt="" /> +91 94589 47333
+              <img src={phone} alt="" /> +91-1332-285647
             </a>
             <span>Mr. Sateesh Kumar Peddoju</span>
           </div>
           <div className={style.contactName}>
-            <a href="tel: +919411176136">
-              <img src={phone} alt="" /> +91 94111 76136
+            <a href="tel: +911332285428">
+              <img src={phone} alt="" /> +91-1332-285428
             </a>
             <span>Mr. Akshay Dvivedi</span>
           </div>
