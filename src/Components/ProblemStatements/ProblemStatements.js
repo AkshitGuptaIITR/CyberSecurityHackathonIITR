@@ -488,23 +488,22 @@ const ProblemStatements = () => {
                   <b>Process Flow for the Preliminary Round</b> <br />
                   For the preliminary round, the advertisement for “Devbhoomi
                   Cyber Hackathon” will placed for the time period between
-                  20-05-2022 and 22.07.2021 on the Uttarakhand Police Website,
+                  20-05-2022 and 26.07.2021 on the Uttarakhand Police Website,
                   Uttarakhand Police Facebook and Twitter accounts, district
                   police Facebook and Twitter accounts and Cyber Crime Police
                   Station, Uttarakhand Facebook and Twitter accounts along with
                   newspapers and radio broadcasting for massive campaigning and
                   for inviting nominations. <br /> <br /> The official
                   nomination will begin from 20th May 2022 and entrants can
-                  participate through the website https://iitr.ac.in/dch/ .
+                  participate through the website https://dch.iitr.ac.in/ .
                   Simultaneously the problem statement for the preliminary round
                   will be shared with the participants as they continue to
-                  register in the mentioned window. At the preliminary level,
+                  register in the mentioned window.<br /> <br /> At the preliminary level,
                   the eligible entrants must participate in the time period in
-                  May, June, July 2022. The participants will be required to
-                  submit their solutions on the official email ID
-                  dcs2022@iitr.ac.in or through our website by 29.08.2022 by
-                  23:59 hours after which no submissions will be accepted.
-                  (Kindly check detailed time schedule)
+                  May, June, July 2022. The participants will be required to submit their
+                  solutions through the SUBMISSION FORM on our website by 26.07.2022 by 17:59
+                  hours after which no submissions will be accepted. (Kindly check detailed time 
+                  schedule and possible updates)
                   <br />
                   <br />
                   <b>
@@ -526,7 +525,7 @@ const ProblemStatements = () => {
                   be a matter of pure discretion of the panel and not open to
                   questioning or scrutiny. <br /> <br />
                   Notification about selected teams will be put up on our portal
-                  by 31.07.2022 One may also keep a track of all the latest
+                  by 29.07.2022 One may also keep a track of all the latest
                   announcements and updates about the initiative through the
                   event website.
                 </p>
