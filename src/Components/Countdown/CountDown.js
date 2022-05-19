@@ -12,7 +12,7 @@ const CountDown = () => {
   }, []);
 
   const getTimeUntil = () => {
-    const time = Date.parse("August 1, 2022") - Date.parse(new Date());
+    const time = Date.parse("August 9, 2022") - Date.parse(new Date());
     if (time < 0) {
       setDays(0);
       setHours(0);

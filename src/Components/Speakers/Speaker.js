@@ -37,11 +37,11 @@ const Speaker = () => {
       name: "Sh. v. Murugesan",
       position: "ADG LO/ STF",
     },
-    {
-      image: pic3,
-      name: "Sh. senthil Avoodai Krishna Raj S",
-      position: "I/C DIG P&M",
-    },
+    // {
+    //   image: pic3,
+    //   name: "Sh. senthil Avoodai Krishna Raj S",
+    //   position: "I/C DIG P&M",
+    // },
     {
       image: pic4,
       name: "Sh. Ajai Singh",

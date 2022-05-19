@@ -19,10 +19,15 @@
 .jury_images {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.jury_img{
+  margin: 10px 0;
+}
 .speaker_box {
-  width: 307.92px;
+  width: 257.5px;
   height: 80px;
   display: flex;
   flex-direction: column;
@@ -66,7 +71,7 @@
 
 .image_style {
   display: block;
-  width: 307.92px;
+  width: 257.5px;
   aspect-ratio: 1/1;
   /* height: 301.94px; */
   margin: 0 25px 35px 15px;
