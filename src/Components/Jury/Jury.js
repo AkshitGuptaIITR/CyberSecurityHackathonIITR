@@ -51,7 +51,7 @@ const Jury = () => {
         <div className={style.jury_images}>
           {array.map((juryData, idx) => {
             return (
-              <div key={idx} className={style.jury_img}>
+              <div key={juryData.name} className={style.jury_img}>
                 <img
                   alt={"Police"}
                   src={juryData.image}
@@ -92,6 +92,7 @@ const Jury = () => {
           {array.map((data, idx) => {
             return (
               <div
+              key={idx}
                 className={`${idx === id ? style.selectedDot : ""} ${style.dot
                   }`}
               ></div>

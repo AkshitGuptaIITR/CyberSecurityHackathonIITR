@@ -58,8 +58,6 @@ const Header = () => {
   //   console.log('asdsa')
   // })
 
-  console.log(activeDiv);
-
   return (
     <header className={style.header} id="header">
       <div>

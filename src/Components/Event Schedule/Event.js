@@ -7,13 +7,7 @@ const Event = () => {
         <>
             <div className={style.Event} id="schedule">
                 <h2>EVENT SCHEDULE (FINALE)</h2>
-                <img alt={"timeline"} src={pic1} style={{
-                    width: "85%",
-                    height: "150vh",
-                    display: "block",
-                    marginLeft: "auto",
-                    marginRight: "auto"
-                }} />
+                <img alt={"timeline"} src={pic1} className={style.image_style} />
             </div>
         </>
     );

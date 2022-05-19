@@ -55,7 +55,7 @@ const Speaker = () => {
         <div className={style.speakers_image}>
           {array.map((speakerData, idx) => {
             return (
-              <div key={idx} className={style.speaker_img}>
+              <div key={idx + 78} className={style.speaker_img}>
                 <img
                   alt={"Police"}
                   src={speakerData.image}
@@ -96,6 +96,7 @@ const Speaker = () => {
           {array.map((data, idx) => {
             return (
               <div
+              key={idx}
                 className={`${idx === id ? style.selectedDot : ""} ${
                   style.dot
                 }`}

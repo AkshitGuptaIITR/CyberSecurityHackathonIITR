@@ -8,7 +8,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 1. CDR analysis software tool</th>
+            <th colSpan="2">PS 1. CDR analysis software tool</th>
           </tr>
 
           <tr>
@@ -47,7 +47,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">
+            <th colSpan="2">
               PS 2. Social media analysis/record finding tools
             </th>
           </tr>
@@ -85,7 +85,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 3. Crime based data collection software</th>
+            <th colSpan="2">PS 3. Crime based data collection software</th>
           </tr>
 
           <tr>
@@ -118,7 +118,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">
+            <th colSpan="2">
               PS 4. Crime Predictive model/tool for hotspot mapping
             </th>
           </tr>
@@ -178,7 +178,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">
+            <th colSpan="2">
               PS 5. Regional basis social media search with time chronology
             </th>
           </tr>
@@ -213,7 +213,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 6. Tracing of bitcoin transactions</th>
+            <th colSpan="2">PS 6. Tracing of bitcoin transactions</th>
           </tr>
 
           <tr>
@@ -242,7 +242,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 7. Network security</th>
+            <th colSpan="2">PS 7. Network security</th>
           </tr>
 
           <tr>
@@ -273,7 +273,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 8. Tracing of VoIP calls</th>
+            <th colSpan="2">PS 8. Tracing of VoIP calls</th>
           </tr>
 
           <tr>
@@ -307,7 +307,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 9. Layering of Bank accounts</th>
+            <th colSpan="2">PS 9. Layering of Bank accounts</th>
           </tr>
 
           <tr>
@@ -340,7 +340,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 10. Development of MIS model</th>
+            <th colSpan="2">PS 10. Development of MIS model</th>
           </tr>
 
           <tr>
@@ -375,7 +375,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 11. OSINT tool for mobile forensics</th>
+            <th colSpan="2">PS 11. OSINT tool for mobile forensics</th>
           </tr>
 
           <tr>
@@ -405,7 +405,7 @@ const ProblemStatements = () => {
       <table>
         <tbody>
           <tr>
-            <th colspan="2">PS 12. Open software/tool/application</th>
+            <th colSpan="2">PS 12. Open software/tool/application</th>
           </tr>
 
           <tr>
@@ -438,7 +438,7 @@ const ProblemStatements = () => {
             </td>
           </tr>
           <tr>
-            <th style={{ textAlign: "center" }} colspan="2">
+            <th style={{ textAlign: "center" }} colSpan="2">
               <details>
                 <summary>Click to read the Glossary</summary>
                 <p style={{ textAlign: "left" }}>
@@ -460,7 +460,7 @@ const ProblemStatements = () => {
             </th>
           </tr>
           <tr>
-            <th style={{ textAlign: "center" }} colspan="2">
+            <th style={{ textAlign: "center" }} colSpan="2">
               <details>
                 <summary>Guidelines for Prelims Round.</summary>
                 <p style={{ textAlign: "left" }}>
@@ -484,7 +484,7 @@ const ProblemStatements = () => {
             </th>
           </tr>
           <tr>
-            <th style={{ textAlign: "center" }} colspan="2">
+            <th style={{ textAlign: "center" }} colSpan="2">
               <details>
                 <summary>Terms and Conditions(Prelims Round)</summary>
                 <p style={{ textAlign: "left" }}>
@@ -706,7 +706,7 @@ const ProblemStatements = () => {
             </th>
           </tr>
           <tr>
-            <th style={{ textAlign: "center" }} colspan="2">
+            <th style={{ textAlign: "center" }} colSpan="2">
               <details>
                 <summary>Click to read Contest Rules</summary>
                 <br/>
@@ -781,7 +781,7 @@ const ProblemStatements = () => {
             </th>
           </tr>
           <tr>
-            <td style={{ textAlign: "justify" }} colspan="2">
+            <td style={{ textAlign: "justify" }} colSpan="2">
               **<strong>Lodging ,Cloak room and food arrangements</strong> of
               the participating teams on 10th, and 11th November 21(Day and
               Night) will be taken care of by UPES Campus. Transportation from
