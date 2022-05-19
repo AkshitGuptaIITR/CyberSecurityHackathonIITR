@@ -9,10 +9,10 @@ const ShowCase = () => {
       <div className={style.showcase}>
         <div className={style.showcase_cont}>
           <h1>DEVBHOOMI CYBER HACKATHON</h1>
-          <p>
+          {/* <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis leo
             lectus ut amet at elementum pharetra potenti.
-          </p>
+          </p> */}
         </div>
         <div className={style.image}>
           <img alt={"Police logo"} src={pic} className={style.Image_style} />

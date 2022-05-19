@@ -18,15 +18,28 @@ const Footer = () => {
   return (
     <footer className={style.footer} id="contact">
       <div className={style.upperBlock}>
-      <div style={{ fontWeight: 300, fontSize: 12 }} className={style.infoMobile}>
-            <span style={{ marginRight: 6 }}>©</span>2022 DEVBHOOMI CYBER
-            HACKATHON
-          </div>
+        <div
+          style={{ fontWeight: 300, fontSize: 12 }}
+          className={style.infoMobile}
+        >
+          <span style={{ marginRight: 6 }}>©</span>2022 DEVBHOOMI CYBER
+          HACKATHON
+        </div>
         <div className={style.images}>
-          <img src={logo} alt="" />
-          <img src={outreach} alt="" />
-          <div>
-            <img src={police} alt="" style={{height: 100}} />
+          <img
+            src={logo}
+            alt="IITR"
+            onClick={() => window.open("https://www.iitr.ac.in/")}
+          />
+          <img
+            src={outreach}
+            alt="Outreach"
+            onClick={() => window.open("https://outreach.iitr.ac.in/")}
+          />
+          <div
+            onClick={() => window.open(" https://uttarakhandpolice.uk.gov.in/")}
+          >
+            <img src={police} alt="" style={{ height: 100 }} />
             <h1>UTTARARKHAND POLICE</h1>
           </div>
         </div>
@@ -34,38 +47,37 @@ const Footer = () => {
           <h1>CONTACT US</h1>
           <p>For technical queries related to problem statements:</p>
           <div className={style.contactName}>
-            <a href="tel: +917302774232">
+            <a href="tel: +919458947333">
               {" "}
-              <img src={phone} alt="" /> +917302774232
+              <img src={phone} alt="" /> +91 94589 47333
             </a>
-            <span>Mr. Kuldeep Tamta</span>
+            <span>Mr. Sateesh Kumar Peddoju</span>
           </div>
           <div className={style.contactName}>
-            <a href="tel: +918266082000">
-              <img src={phone} alt="" /> +918266082000
+            <a href="tel: +919411176136">
+              <img src={phone} alt="" /> +91 94111 76136
             </a>
-            <span>Mr. Sandesh Yadav</span>
+            <span>Mr. Akshay Dvivedi</span>
           </div>
           <a
-            href="mailto: devbhoomihackathon@gmail.com
-"
+            href="mailto: dch2022@iitr.ac.in"
             className={style.email}
           >
             <img src={email} style={{ marginRight: 12 }} alt="" />{" "}
-            devbhoomihackathon@gmail.com
+            dch2022@iitr.ac.in
           </a>
           <div className={style.socailMedia}>
             <a href="">
-              <img src={facebook} alt="" />
+              <img src={facebook} alt="" onClick={() => window.open('https://www.facebook.com/iitroorkee.media')} />
             </a>
             <a href="">
-              <img src={linkedin} alt="" />
+              <img src={linkedin} alt="" onClick={() => window.open('https://www.linkedin.com/school/157269/admin/')} />
             </a>
             <a href="">
-              <img src={instagram} alt="" />
+              <img src={instagram} alt="" onClick={() => window.open('https://www.instagram.com/iitroorkee/?hl=en')} />
             </a>
             <a href="">
-              <img src={twitter} alt="" />
+              <img src={twitter} alt="" onClick={() => window.open('https://twitter.com/iitroorkee')} />
             </a>
           </div>
           <div style={{ fontWeight: 300, fontSize: 12 }} className={style.info}>

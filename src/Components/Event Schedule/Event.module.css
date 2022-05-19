@@ -2,6 +2,11 @@
 .Event {
   padding: 0 35px 0 35px;
   margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .Event h2 {
   font-family: "Montserrat", sans-serif;

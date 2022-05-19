@@ -96,7 +96,7 @@ const Speaker = () => {
           {array.map((data, idx) => {
             return (
               <div
-              key={idx}
+                key={idx}
                 className={`${idx === id ? style.selectedDot : ""} ${
                   style.dot
                 }`}

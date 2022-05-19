@@ -16,6 +16,10 @@
   height: 56px;
 }
 
+.header img:hover{
+  cursor: pointer;
+}
+
 .links {
   display: flex;
   flex-direction: row;

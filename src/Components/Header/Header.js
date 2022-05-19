@@ -61,8 +61,17 @@ const Header = () => {
   return (
     <header className={style.header} id="header">
       <div>
-        <img src={logo} alt="" />
-        <img src={policeLogo} style={{ marginLeft: "20px" }} alt="" />
+        <img
+          src={logo}
+          alt="IITR"
+          onClick={() => window.open("https://www.iitr.ac.in/")}
+        />
+        <img
+          src={policeLogo}
+          style={{ marginLeft: "20px" }}
+          alt="UK Police"
+          onClick={() => window.open("https://uttarakhandpolice.uk.gov.in/")}
+        />
       </div>
       {width <= 728 ? (
         <>

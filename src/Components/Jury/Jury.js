@@ -69,7 +69,8 @@ const Jury = () => {
             );
           })}
         </div>
-        <div className={style.mobileView}>x
+        <div className={style.mobileView}>
+          x
           <img src={left} alt="" onClick={handleLeft} />
           <div className={style.speaker_img}>
             <img
@@ -92,9 +93,10 @@ const Jury = () => {
           {array.map((data, idx) => {
             return (
               <div
-              key={idx}
-                className={`${idx === id ? style.selectedDot : ""} ${style.dot
-                  }`}
+                key={idx}
+                className={`${idx === id ? style.selectedDot : ""} ${
+                  style.dot
+                }`}
               ></div>
             );
           })}
