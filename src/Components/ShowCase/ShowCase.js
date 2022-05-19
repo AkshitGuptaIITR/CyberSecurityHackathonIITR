@@ -14,7 +14,7 @@ const ShowCase = () => {
             lectus ut amet at elementum pharetra potenti.
           </p> */}
           <button onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSfvIXEw_ArtFow1nt3HEmrxHXIcOulBTM6KxscQ9aYLUL9LBA/viewform')}>Register Now</button>
-          <p style={{fontSize: 12}}>*registrations open till xx/xx/2022</p>
+          {/* <p style={{fontSize: 12}}>*registrations open till xx/xx/2022</p> */}
         </div>
         <div className={style.image}>
           <img alt={"Police logo"} src={pic} className={style.Image_style} />
