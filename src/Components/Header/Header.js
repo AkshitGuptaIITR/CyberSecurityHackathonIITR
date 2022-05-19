@@ -68,23 +68,26 @@ const Header = () => {
       </div>
       {width <= 728 ? (
         <>
-        <div style={{
-          display: 'flex',
-          alignItems: 'center',
-          height: '80px',
-          width: '40%',
-          justifyContent: 'flex-end'
-        }}>
           <div
-            className={style.hamburger}
-            style={{ backgroundColor: `${open ? "black" : ""}` }}
-            onClick={handleClick}
+            style={{
+              display: "flex",
+              alignItems: "center",
+              height: "80px",
+              width: "40%",
+              marginTop: "26px",
+              justifyContent: "flex-end",
+            }}
           >
-            <div className={style.line}></div>
-            <div className={style.line}></div>
-            <div className={style.line}></div>
+            <div
+              className={style.hamburger}
+              style={{ backgroundColor: `${open ? "black" : ""}` }}
+              onClick={handleClick}
+            >
+              <div className={style.line}></div>
+              <div className={style.line}></div>
+              <div className={style.line}></div>
+            </div>
           </div>
-        </div>
           <div
             className={style.mobileLinks}
             style={{ display: `${open ? "flex" : "none"}` }}
