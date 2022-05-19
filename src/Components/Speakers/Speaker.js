@@ -3,7 +3,7 @@ import style from "./Speaker.module.css";
 import pic1 from "../../Assets/image 1462.jpg";
 import pic2 from "../../Assets/image 1463.jpg";
 import pic3 from "../../Assets/image 1464.jpg";
-import pic4 from "../../Assets/image 1465.jpg";
+import pic4 from "../../Assets/image 1466.jpg";
 import left from "../../Assets/left.png";
 import right from "../../Assets/right.png";
 
@@ -37,15 +37,10 @@ const Speaker = () => {
       name: "Sh. v. Murugesan",
       position: "ADG LO/ STF",
     },
-    // {
-    //   image: pic3,
-    //   name: "Sh. senthil Avoodai Krishna Raj S",
-    //   position: "I/C DIG P&M",
-    // },
     {
       image: pic4,
-      name: "Sh. Ajai Singh",
-      position: "SSP STF",
+      name: "Sh. Amit Sinha",
+      position: "ADG",
     },
   ];
   return (

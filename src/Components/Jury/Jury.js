@@ -65,16 +65,16 @@ const Jury = () => {
       name: "Smt. Nivedita Kukreti Kumar",
       position: "DIG Intelligence",
     },
+    // {
+    //   image: pic6,
+    //   name: "Sh. Vivek singh kutiyal",
+    //   position: "DySP STF",
+    // },
     {
       image: pic5,
       name: "Smt. Anusha badola",
       position: "DySP vigilance",
-    },
-    {
-      image: pic6,
-      name: "Sh. Vivek singh kutiyal",
-      position: "DySP STF",
-    },
+    }    
   ];
 
   const arrayCommunity = [
@@ -100,7 +100,7 @@ const Jury = () => {
     },
     {
       image: cpic4,
-      name: "Sumit Pandey",
+      name: "Sh. Sumit Pandey",
       position: "DySP Pithoragarh",
     },
     {
