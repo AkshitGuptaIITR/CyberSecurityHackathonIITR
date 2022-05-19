@@ -441,7 +441,26 @@ const ProblemStatements = () => {
             <th style={{ textAlign: "center" }} colSpan="2">
               <details>
                 <summary>Click to read the Glossary</summary>
-                <p style={{ textAlign: "left" }}>
+                <p
+                  style={{ textAlign: "left", fontWeight: 400, marginTop: 12 }}
+                >
+                  The participants will have to abide by the official rules
+                  provided by Uttarakhand Police for participation from
+                  time-to-time including the rules mentioned below. <br /> There
+                  is no entrance fee for participation. Uttarakhand Police
+                  welcomes nominations for participation in the first Hackathon
+                  of the State, “Devbhoomi Cyber Hackathon”.
+                </p>
+              </details>
+            </th>
+          </tr>
+          <tr>
+            <th style={{ textAlign: "center" }} colSpan="2">
+              <details>
+                <summary>Guidelines for Prelims Round.</summary>
+                <p
+                  style={{ textAlign: "left", fontWeight: 400, marginTop: 12 }}
+                >
                   • Source code to have been developed during the course of the
                   event.
                   <br /> • Source code not to contain any element with patent or
@@ -462,245 +481,54 @@ const ProblemStatements = () => {
           <tr>
             <th style={{ textAlign: "center" }} colSpan="2">
               <details>
-                <summary>Guidelines for Prelims Round.</summary>
-                <p style={{ textAlign: "left" }}>
-                  The Prelims round submission
-                  <br />
-                  After Registration the team has to submit the following files
-                  for prelims round.
-                  <br />
-                  1. Video recording of the developed / proposed prototype /
-                  created solution with explanation (not more than 5 minutes).
-                  <br />
-                  2. Presentation of proposed solution. (not more than 10
-                  pages).
-                  <br />
-                  Note: - 1. All submission will be uploaded in a single zip
-                  file.
-                  <br />
-                  2.Name of the file TeamLeaderName_OrganisationName
-                </p>
-              </details>
-            </th>
-          </tr>
-          <tr>
-            <th style={{ textAlign: "center" }} colSpan="2">
-              <details>
                 <summary>Terms and Conditions(Prelims Round)</summary>
-                <p style={{ textAlign: "left" }}>
-                  I. Hackathon Licence &amp; Participation Agreement
+                <p
+                  style={{ textAlign: "left", fontWeight: 400, marginTop: 12 }}
+                >
+                  <b>Process Flow for the Preliminary Round</b> <br />
+                  For the preliminary round, the advertisement for “Devbhoomi
+                  Cyber Hackathon” will placed for the time period between
+                  20-05-2022 and 22.07.2021 on the Uttarakhand Police Website,
+                  Uttarakhand Police Facebook and Twitter accounts, district
+                  police Facebook and Twitter accounts and Cyber Crime Police
+                  Station, Uttarakhand Facebook and Twitter accounts along with
+                  newspapers and radio broadcasting for massive campaigning and
+                  for inviting nominations. <br /> <br /> The official
+                  nomination will begin from 20th May 2022 and entrants can
+                  participate through the website https://iitr.ac.in/dch/ .
+                  Simultaneously the problem statement for the preliminary round
+                  will be shared with the participants as they continue to
+                  register in the mentioned window. At the preliminary level,
+                  the eligible entrants must participate in the time period in
+                  May, June, July 2022. The participants will be required to
+                  submit their solutions on the official email ID
+                  dcs2022@iitr.ac.in or through our website by 29.08.2022 by
+                  23:59 hours after which no submissions will be accepted.
+                  (Kindly check detailed time schedule)
                   <br />
-                  The Devbhoomi Cyber Hackathon License and Participation is an
-                  agreement between the Participant (Teams) and the Organizer
-                  (Uttarakhand Police) and states that the Participant has
-                  voluntarily agreed to share the codes/software/solution
-                  developed/presented by the Participant with the Organizer in
-                  the process of event. It is mutually agreed that the
-                  Participant has no objection to the Organizer
-                  reviewing/evaluating their work and making selections as per
-                  the discretion of the Jury. The solution (working application)
-                  will be made available to the Organizer in accordance with the
-                  instructions. If the Participant does not agree with the Terms
-                  and Conditions and the Official Rules, he/she/they will not be
-                  eligible for nomination and registration.
                   <br />
-                  II. Scope
+                  <b>
+                    Result Analysis of Preliminary Round and Declaration of
+                    Result
+                  </b>
                   <br />
-                  The scope of the Devbhoomi Cyber Hackathon is to find
-                  feasible, practical and sustainable smart solutions for the
-                  daunting challenges faced during law enforcement. Uttarakhand
-                  Police is hosting the event on the dates stated in the
-                  proposal.
-                  <br />
-                  Participants at the event will be asked to respond to problem
-                  statements shared by the Organizer at the preliminary and the
-                  main events.
-                  <br />
-                  III. Intellectual Property and Licensing
-                  <br />
-                  A. Definitions
-                  <br />
-                  1. The term “Intellectual Property” shall mean any (a)
-                  processes, methodologies, procedures, and trade secrets, (b)
-                  software, tools, scripts and machine-readable texts and files,
-                  (c) literary work or other work of authorship, including
-                  documentation, reports, drawings, charts, graphics and other
-                  written documentation and (d) all copyright, patent rights,
-                  design rights, layout-design rights, trademarks and
-                  proprietary information.
-                  <br />
-                  2. The term “Participant’s Intellectual Property” shall mean
-                  any and all Intellectual Property that is, or was authored,
-                  created, invented, reduced to practice, made and/or acquired
-                  by the participant at any time before the Hackathon, excluding
-                  Intellectual Property owned by UTTARAKHAND POLICE and/or the
-                  Hackathon Intellectual Property (as defined below).
-                  <br />
-                  3. The term “Hackathon Intellectual Property” shall mean all
-                  new Intellectual Property and any other work product created
-                  or developed by the participant during the Hackathon and for
-                  the purposes of the Hackathon and all proprietary rights in
-                  the foregoing.
-                  <br />
-                  B. Ownership of Intellectual Property
-                  <br />
-                  1. Nothing in these Terms shall affect any ownership rights to
-                  the Participant’s Intellectual Property. The relevant
-                  participant hereby agrees to grant to the Organizer a fully
-                  paid-up, non-exclusive, perpetual, irrevocable, royalty-free,
-                  and worldwide license to use the Participant’s Intellectual
-                  Property which is required for the Organizer to use the
-                  Hackathon Intellectual Property to the fullest extent
-                  possible. (The Participants developing these solutions will
-                  willingly handover the free license of the software/tool to
-                  Uttarakhand Police (if selected) &amp; will not stake claim of
-                  the Intellectual Property rights or Copyright. The tool
-                  provided will be transferred for police use but will be
-                  non-exclusive. Hence the participants
-                  <br />
-                  agree to grant to Uttarakhand Police a non-exclusive,
-                  worldwide, irrevocable, royalty free and free license right to
-                  read, review, keep and judge the source code/software for
-                  selection to the main event.)
-                  <br />
-                  2. All Hackathon Intellectual Property shall vest in and be
-                  the absolute property of the Organizer, the participant shall
-                  not disclose, release or sell to any persons or otherwise deal
-                  with the same in any manner whatsoever without the Organizer's
-                  written consent.
-                  <br />
-                  3. All Hackathon Intellectual Property capable of vesting in
-                  accordance with point III.B.2 above without the need for any
-                  transfer or assignment to be executed by the person generating
-                  the same shall vest in the Organizer by virtue of point
-                  III.B.2 above alone without the need for any transfer or
-                  assignment. All Hackathon Intellectual Property capable of
-                  vesting in accordance with point III.B.2 above with the need
-                  for a transfer or assignment to be executed by the person
-                  generating the same shall be arranged by the relevant
-                  participant to be vested in the Organizer with the necessary
-                  transfer or assignment at no additional charges or cost.
-                  <br />
-                  4. The participant shall do all things necessary to ensure
-                  that all Hackathon Intellectual Property (other than those
-                  already vested in the manner described in point III.B.3 above
-                  are fully vested in the Organizer in accordance with point
-                  III.B.2 above. The relevant participant further warrants that
-                  he/she/they shall have the authority to transfer or assign
-                  such Hackathon Intellectual Property to or otherwise vest such
-                  Hackathon Intellectual Property in the Organizer when called
-                  upon by the Organizer to do so.
-                  <br />
-                  5. In case, the Participant fails to qualify for the main
-                  event, he/she/they will not stake claim of any copyright
-                  infringement/patent violation/knowledge-sharing dispute for
-                  the solutions submitted during the preliminary round for
-                  evaluation. (In case, the participant fails to qualify for the
-                  main event, then the participating team agrees that it will
-                  not stake claim of copyright infringement/patent
-                  violation/knowledge sharing dispute for the solutions
-                  submitted for the preliminary round)
-                  <br />
-                  6. The Participant will remain the owner of the solution and
-                  can further improve the version. Any extension developed by
-                  the Participants shall be owned by him/her/them
-                  (“Participantextension”) but such an addition to the solution
-                  would be allowed only after the Hackathon. (The developer will
-                  remain the owner to further improve their version and use for
-                  its own purpose. Any extension developed solely by
-                  participants shall be owned by participants
-                  (“Participantextension”) but that will be allowed after the
-                  conclusion of the hackathon.)
-                  <br />
-                  Section A and Section B of this ‘Intellectual Property’ clause
-                  shall survive the cancellation, end/expiration or termination
-                  of the Hackathon.
-                  <br />
-                  C. Preservation of your Intellectual Property
-                  <br />
-                  You shall be solely responsible to and expected to perform to
-                  the utmost care to protect your Intellectual Property that you
-                  use, present and/or share during the course of and/or in
-                  relation to the Hackathon. IV. Indemnities
-                  <br />
-                  To the maximum extent permitted by law, you will be
-                  responsible for (and you agree to defend, indemnify and hold
-                  harmless the Organizer, its staffs/employees, directors,
-                  affiliates, other partners and/or sponsors of the Hackathon
-                  from and against) any and all claims, actions, suits or
-                  proceedings, as well as any and all losses, liabilities,
-                  damages, costs and expenses (including reasonable attorneys’
-                  fees) arising out of or accruing from:
-                  <br />
-                  a) any material(s) (including the Application) uploaded or
-                  otherwise provided by you that defames any person or infringes
-                  another person's rights, including any copyright, trademark,
-                  trade secret, trade dress, patent or other Intellectual
-                  Property right, or any rights of publicity or privacy;
-                  <br />
-                  b) any misrepresentation made by you in connection with the
-                  Hackathon;
-                  <br />
-                  c) any non-compliance and breach by you of these General Terms
-                  and the representations and warranties set forth herein;
-                  <br />
-                  d) claims brought by persons or entities arising from or
-                  related to your involvement with the Hackathon;
-                  <br />
-                  e) your acceptance, possession, misuse or use of any prize or
-                  participation in any Hackathon-related activity or
-                  participation in the Hackathon, including but not limited to
-                  statutory and common law claims for misappropriation or right
-                  of publicity; and/or
-                  <br />
-                  f) any malfunction or other problem with the Hackathon web
-                  site(s) and/or platform(s) caused by your use or your material
-                  (including the Application) submitted in or your participation
-                  in the Hackathon.
-                  <br />
-                  V. Limitation of Liabilities
-                  <br />
-                  To the maximum extent permitted by law, in no event will the
-                  Organizer be liable to you for:
-                  <br />
-                  a) any circumstances beyond its control, including any Force
-                  Majeure Event(s), act or default by a third-party supplier
-                  (such as the actions of any hosts or cancellations, delays,
-                  diversions or substitution or any other acts or omissions
-                  whatsoever by the air carriers, hotels, venue operators,
-                  transportation companies, prize providers or any other persons
-                  providing any related services or accommodations);
-                  <br />
-                  b) any postponement or cancellation of the Hackathon;
-                  <br />
-                  c) failure by any winner to take advantage of a prize due to
-                  health or any other reason;
-                  <br />
-                  d) any loss, injury, claim or damage suffered by you in
-                  connection with or as a result of your participation in the
-                  Hackathon, unless such loss, injury, claim or damage is solely
-                  and directly caused by the Organizer; and/or
-                  <br />
-                  e) any special, indirect, incidental, consequential damage of
-                  any nature whatsoever including any loss of profits, loss of
-                  revenue, contracts, anticipated savings or business, pure
-                  economic loss, loss or corruption of data, loss of opportunity
-                  and/or expectation loss.
-                  <br />
-                  In this respect, ‘Force Majeure Event’ shall mean an event
-                  which is beyond the reasonable control of the Organizer which
-                  affects and frustrates the implementation of the Hackathon
-                  without fault or negligence of the Organizer and the Organizer
-                  is unable to perform its obligations despite implementing
-                  reasonable efforts and shall include acts of God, interference
-                  by civil or military authority, riots, civil disturbance,
-                  terrorist activity, wars, strikes, fires, floods, epidemic,
-                  national or widespread health quarantine, or other
-                  catastrophes.
-                  <br />
-                  <strong>
-                    We, the Particpants agree to the above terms and conditions.
-                  </strong>
+                  Post solution submission process, the eligible entries will be
+                  evaluated by a jury panel comprising officials from Police
+                  department & other technical experts. Evaluation criteria will
+                  include: <br />
+                  1. Meeting the expectations of the problem statement. <br />
+                  2. Practicability, sustainability, clarity, complexity and
+                  feasibility of the solution <br />
+                  3. Potential for future work progression. <br />
+                  4. Any other possible technical assistance to ease the work of
+                  police. <br />
+                  The declaration of the winner based on the above criteria will
+                  be a matter of pure discretion of the panel and not open to
+                  questioning or scrutiny. <br /> <br />
+                  Notification about selected teams will be put up on our portal
+                  by 31.07.2022 One may also keep a track of all the latest
+                  announcements and updates about the initiative through the
+                  event website.
                 </p>
               </details>
             </th>
@@ -709,7 +537,7 @@ const ProblemStatements = () => {
             <th style={{ textAlign: "center" }} colSpan="2">
               <details>
                 <summary>Click to read Contest Rules</summary>
-                <br/>
+                <br />
                 <p style={{ textAlign: "left", fontWeight: 300 }}>
                   The participants will have to abide by the official rules
                   provided by Uttarakhand Police for participation from
@@ -757,36 +585,117 @@ const ProblemStatements = () => {
                   will automatically be disqualified along with all team members
                   he/she is in association with. Also, he/she must meet the
                   eligibility criteria for participating in the event.
-                  <br /><br/> <b> Process Flow for the Preliminary Round </b> <br />
-                  For the preliminary round, the advertisement for “Devbhoomi
-                  Cyber Hackathon” will placed for the time period between
-                  20-05-2022 and 22.07.2021 on the Uttarakhand Police Website,
-                  Uttarakhand Police Facebook and Twitter accounts, district
-                  police Facebook and Twitter accounts and Cyber Crime Police
-                  Station, Uttarakhand Facebook and Twitter accounts along with
-                  newspapers and radio broadcasting for massive campaigning and
-                  for inviting nominations. The official nomination will begin
-                  from 20th May 2022 and entrants can participate through the
-                  website https://iitr.ac.in/dch/ . Simultaneously the problem
-                  statement for the preliminary round will be shared with the
-                  participants as they continue to register in the mentioned
-                  window. At the preliminary level, the eligible entrants must
-                  participate in the time period in May, June, July 2022. The
-                  participants will be required to submit their solutions on the
-                  official email ID dcs2022@iitr.ac.in or through our website by
-                  29.08.2022 by 23:59 hours after which no submissions will be
-                  accepted. (Kindly check detailed time schedule)
+                  <br />
+                  <br />
+                  <b>Nomination for the Main Event</b>
+                  <br />
+                  The selected teams will be invited for the final event
+                  scheduled between 09.08.2022-12.08.2022. The constitution of
+                  the team selected for the main event will not change and will
+                  have the same membership as the preliminary round. (Please
+                  check detailed schedule).
+                  <br />
+                  <br />
+                  <b>Devbhoomi Cyber Hackathon (main event)</b>
+                  <br />
+                  At the beginning of the event, the problem statements will be
+                  shared with all participants at the same time. The main event
+                  will take place in offline mode at University of Petroleum and
+                  Energy Studies, Dehradun. The final round will be a 48 hours
+                  long session beginning on 09.08.2022 and ending on 10.08.2022.
+                  The Jury will judge the main event on 11.08.22 while the
+                  felicitation ceremony is slated for 12.08.22
+                  <br />
+                  <br />
+                  <b>
+                    Result Analysis of the Final Event and Declaration of Winner
+                  </b>
+                  <br />
+                  Each eligible entry will be evaluated by a jury panel
+                  comprising officials from Police department. Evaluation
+                  criteria include: <br />
+                  1. Relevancy. <br />
+                  2. Novelty of concept <br />
+                  3. Practicality, feasibility and sustainability <br />
+                  4. Meeting the expectation of the police. <br />
+                  The declaration of the winner based on the above criteria will
+                  be a matter of pure discretion of the panel and not open to
+                  questioning or scrutiny. The winner will be declared on
+                  12.08.2022 as per the timeframe of the committee. <br />
+                  <b>Reward</b>
+                  <br />
+                  The top three teams will be awarded motivational prizes along
+                  with a certificate of excellence for all the participants of
+                  the main event. The reward will be given to the participants
+                  directly by the sponsors. (*The amount will be disclosed soon)
+                  <br />
+                  <br />
+                  <b>Taxes</b>
+                  <br />
+                  The winning amount will be subjected to any existing
+                  Central/State/Concurrent laws of India for taxation. Payment
+                  of tax and other formalities is the sole responsibility of the
+                  participating team.
+                  <br />
+                  <br />
+                  <b>Participant representation and Warranties</b>
+                  <br />
+                  By entering the contest, participants will represent and
+                  warrant that their eligible entries are their original work.
+                  Each participant agrees that any outside data, tools,
+                  materials, or information were used with permission, or in
+                  accordance with all applicable laws for the purpose of
+                  entering the contest. Each participant agrees not to submit
+                  any entry that infringes any third-party proprietary rights,
+                  intellectual property rights, industrial property rights,
+                  personal or moral rights or any other rights, including
+                  without limitations, copyright, trademark, patent, trade
+                  secret, privacy, publicity, confidentiality obligations.
+                  <br />
+                  <br />
+                  <b>Privacy</b>
+                  <br />
+                  Participants agree that the personal data entered during the
+                  registration & otherwise in connection with the contest has
+                  been filled with their own consent. Uttarakhand Police is
+                  authorised to the given details for communication/
+                  correspondence and carrying the process of hackathon.
+                  <br />
+                  <br />
+                  <b>Governing Law</b>
+                  <br />
+                  The official rules, terms and condition and all the procedures
+                  will be governed by the laws prevailing in India.
+                  <br />
+                  <br />
+                  <b>Confidentiality</b>
+                  <br />
+                  You shall not disclose or release to the third party any
+                  information you receive and relating to the Hackathon which is
+                  not publicly available information, including all materials
+                  you receive and discussions(whether verbal or written) during
+                  the Hackathon and information relating to the Applications,
+                  details of the Applications developed and produced by you,
+                  your team or by other participants or other team during the
+                  Hackathon, any other confidential information you may have
+                  received from other participants during the Hackathon, and
+                  feedback provided by the Organizer and any Intellectual
+                  Property presented, developed and produced during the duration
+                  of the Hackathon. This ‘Confidentiality’ clause shall survive
+                  the cancellation, end/expiration or termination of the
+                  Hackathon.
                 </p>
               </details>
             </th>
           </tr>
           <tr>
             <td style={{ textAlign: "justify" }} colSpan="2">
-              **<strong>Lodging ,Cloak room and food arrangements</strong> of
-              the participating teams on 10th, and 11th November 21(Day and
-              Night) will be taken care of by UPES Campus. Transportation from
-              ISBT and Railway Station will be provided by UPES subject to
-              shortlisted participating teams' travel plans.
+              Preliminary rounds will be conducted in online mode, so
+              accommodation is not required. For the main event, all
+              participants will be required to travel to IIT-Roorkee. The
+              selected teams will be provided with facilities for{" "}
+              <strong>food and lodging</strong>. We will not provide for travel
+              expenses.
             </td>
           </tr>
         </tbody>

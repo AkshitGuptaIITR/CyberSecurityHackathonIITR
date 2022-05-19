@@ -13,6 +13,8 @@ const ShowCase = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis leo
             lectus ut amet at elementum pharetra potenti.
           </p> */}
+          <button>Register Now</button>
+          <p style={{fontSize: 12}}>*registrations open till xx/xx/2022</p>
         </div>
         <div className={style.image}>
           <img alt={"Police logo"} src={pic} className={style.Image_style} />
