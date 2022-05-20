@@ -1,6 +1,6 @@
 import React from 'react';
 import style from "./Timeline.module.css";
-import pic1 from "../../Assets/TImeline Poster 1.jpg";
+import pic1 from "../../Assets/Timeline.png";
 
 
 const Timeline = () => {

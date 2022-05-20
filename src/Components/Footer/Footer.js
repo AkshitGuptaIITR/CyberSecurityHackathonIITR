@@ -26,17 +26,19 @@ const Footer = () => {
           <img
             src={logo}
             alt="IITR"
+            style={{cursor: "pointer"}}
             onClick={() => window.open("https://www.iitr.ac.in/")}
           />
           <img
             src={outreach}
             alt="Outreach"
+            style={{cursor: "pointer"}}
             onClick={() => window.open("https://outreach.iitr.ac.in/")}
           />
           <div
             onClick={() => window.open(" https://uttarakhandpolice.uk.gov.in/")}
           >
-            <img src={police} alt="" style={{ height: 100 }} />
+            <img src={police} alt="" style={{ height: 100, cursor: "pointer" }} />
             <h1>UTTARARKHAND POLICE</h1>
           </div>
         </div>
@@ -48,13 +50,13 @@ const Footer = () => {
               {" "}
               <img src={phone} alt="" /> +91-1332-285647
             </a>
-            <span>Mr. Sateesh Kumar Peddoju</span>
+            <span>Prof. Sateesh K Peddoju</span>
           </div>
           <div className={style.contactName}>
             <a href="tel: +911332285428">
               <img src={phone} alt="" /> +91-1332-285428
             </a>
-            <span>Mr. Akshay Dvivedi</span>
+            <span>Prof. Akshay Dvivedi</span>
           </div>
           <a
             href="mailto: dch2022@iitr.ac.in"

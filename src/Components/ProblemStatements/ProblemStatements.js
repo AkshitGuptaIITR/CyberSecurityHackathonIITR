@@ -488,7 +488,7 @@ const ProblemStatements = () => {
                   <b>Process Flow for the Preliminary Round</b> <br />
                   For the preliminary round, the advertisement for “Devbhoomi
                   Cyber Hackathon” will placed for the time period between
-                  20-05-2022 and 26.07.2021 on the Uttarakhand Police Website,
+                  20-05-2022 and 26.07.2022 on the Uttarakhand Police Website,
                   Uttarakhand Police Facebook and Twitter accounts, district
                   police Facebook and Twitter accounts and Cyber Crime Police
                   Station, Uttarakhand Facebook and Twitter accounts along with
